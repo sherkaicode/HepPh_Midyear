@@ -1,0 +1,14 @@
+Beams:idA = 2212        
+
+Beams:idB = 2212	
+
+Beams:eCM = 13000.	
+
+Top:all = on
+
+Main:numberOfEvents = 10000
+
+PartonLevel:ISR = off
+PartonLevel:FSR = off
+PartonLevel:MPI = off
+HadronLevel:all = off
