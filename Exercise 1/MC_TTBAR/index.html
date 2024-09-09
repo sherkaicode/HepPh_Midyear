@@ -1,0 +1,242 @@
+<html>
+<head>
+<title>Plots from Rivet analyses &ndash; MC_TTBAR</title>
+<style>
+          html { font-family: arial black, sans-serif; color: #333333; }
+          img { border: 0; }
+          a { text-decoration: none; font-weight: bold; }
+          footer { clear:both; margin-top:2em; margin-bottom:2em; padding-top:2em; color: #999999; }
+
+          .anasumm, .indexanasumm { margin-bottom: 2.5em; line-height: 1.4; font-size: 120%; font-family: georgia, palatino, serif; }
+          .back, .back a { font-weight: bold; color: gray; font-variant: small-caps; text-transform: uppercase; margin-bottom: 2em; }
+
+          .filterform { position: fixed; top: 1em; right: 1em; background: white; opacity: 0.2; }
+          .filterform { padding: 1em; padding-bottom: 0.1em; border: 2px solid gray; border-radius: 0.7em; }
+          .filterform:hover, .filterform:focus-within { opacity: 1.0; -webkit-transition: opacity 1s; transition: opacity 1s; drop-shadow(gray 0.5em 0.5em 10px); }
+          .filterpatt { padding: 0.3em; font-size: 100%; border: 1px solid #85C1E9; border-radius: 0.1em; }
+          .filterbutton { padding: 0.3em; font-size: 100%; border: 2px solid #85C1E9; background:#D6EAF8; border-radius: 0.3em; }
+        </style>
+                    <script type="text/javascript">
+              window.MathJax = { tex: { inlineMath: [['$','$']] },
+                                 options: { menuOptions: { settings: { inTabOrder: false } } } };
+            </script>
+            <script type="text/javascript" id="MathJax-script" async
+                src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-chtml-full.min.js">
+            </script>
+            
+
+            <script type="text/javascript">
+                function filterPlots(ana, patt) {
+                    var regex = new RegExp(patt);
+                    var sec = document.getElementById('ana_'+ana);
+                    var plots = sec.getElementsByClassName('plot');
+                    var i; for (i = 0; i < plots.length; ++i) {
+                        // var viz = (regex.test(plots[i].id)) ? 'visible' : 'hidden';
+                        // plots[i].style.visibility = viz;
+                        var dis = (regex.test(plots[i].id)) ? 'block' : 'none';
+                        plots[i].style.display = dis;
+                    }
+                    return false;
+               }
+            </script>
+            </head>
+<body>
+<section id="ana_MC_TTBAR">
+<p class="back"><a href="../index.html" title="Return to index page">&larrhk; Index</a></p>
+<h2>MC_TTBAR</h2>
+<p class="anasumm">
+  A pure Monte Carlo study for $t\bar{t}$ production, characterising the top-quark final-state via jet and lepton reconstruction rather than the unreliable partonic tops.
+</p>
+<div class="filterform"><form onsubmit="var patt = document.getElementById('patt_MC_TTBAR').value; filterPlots('MC_TTBAR', patt); return false;">
+<span><b>Filter plots:</b>&emsp;</span><input class="filterpatt" id="patt_MC_TTBAR" type="search" accesskey="s" title="Filter: Alt+s">
+<input class="filterbutton" type="submit" value="Filter">
+</form></div>
+
+  <div class="plot" id="plot_onelep_W_mass" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_TTBAR-onelep_W_mass">&#9875;</a><a href="onelep_W_mass.py">&#8984;</a><a href="onelep_W_mass__data.py">&#128202;</a> onelep_W_mass:<br/>
+    <a name="MC_TTBAR-onelep_W_mass"><a href="onelep_W_mass.pdf">
+      <img src="onelep_W_mass.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_onelep_jet_1_pT" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_TTBAR-onelep_jet_1_pT">&#9875;</a><a href="onelep_jet_1_pT.py">&#8984;</a><a href="onelep_jet_1_pT__data.py">&#128202;</a> onelep_jet_1_pT:<br/>
+    <a name="MC_TTBAR-onelep_jet_1_pT"><a href="onelep_jet_1_pT.pdf">
+      <img src="onelep_jet_1_pT.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_onelep_jet_2_pT" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_TTBAR-onelep_jet_2_pT">&#9875;</a><a href="onelep_jet_2_pT.py">&#8984;</a><a href="onelep_jet_2_pT__data.py">&#128202;</a> onelep_jet_2_pT:<br/>
+    <a name="MC_TTBAR-onelep_jet_2_pT"><a href="onelep_jet_2_pT.pdf">
+      <img src="onelep_jet_2_pT.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_onelep_jet_3_pT" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_TTBAR-onelep_jet_3_pT">&#9875;</a><a href="onelep_jet_3_pT.py">&#8984;</a><a href="onelep_jet_3_pT__data.py">&#128202;</a> onelep_jet_3_pT:<br/>
+    <a name="MC_TTBAR-onelep_jet_3_pT"><a href="onelep_jet_3_pT.pdf">
+      <img src="onelep_jet_3_pT.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_onelep_jet_4_pT" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_TTBAR-onelep_jet_4_pT">&#9875;</a><a href="onelep_jet_4_pT.py">&#8984;</a><a href="onelep_jet_4_pT__data.py">&#128202;</a> onelep_jet_4_pT:<br/>
+    <a name="MC_TTBAR-onelep_jet_4_pT"><a href="onelep_jet_4_pT.pdf">
+      <img src="onelep_jet_4_pT.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_onelep_jet_HT" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_TTBAR-onelep_jet_HT">&#9875;</a><a href="onelep_jet_HT.py">&#8984;</a><a href="onelep_jet_HT__data.py">&#128202;</a> onelep_jet_HT:<br/>
+    <a name="MC_TTBAR-onelep_jet_HT"><a href="onelep_jet_HT.pdf">
+      <img src="onelep_jet_HT.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_onelep_jet_mult" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_TTBAR-onelep_jet_mult">&#9875;</a><a href="onelep_jet_mult.py">&#8984;</a><a href="onelep_jet_mult__data.py">&#128202;</a> onelep_jet_mult:<br/>
+    <a name="MC_TTBAR-onelep_jet_mult"><a href="onelep_jet_mult.pdf">
+      <img src="onelep_jet_mult.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_onelep_jetb_1_W_dR" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_TTBAR-onelep_jetb_1_W_dR">&#9875;</a><a href="onelep_jetb_1_W_dR.py">&#8984;</a><a href="onelep_jetb_1_W_dR__data.py">&#128202;</a> onelep_jetb_1_W_dR:<br/>
+    <a name="MC_TTBAR-onelep_jetb_1_W_dR"><a href="onelep_jetb_1_W_dR.pdf">
+      <img src="onelep_jetb_1_W_dR.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_onelep_jetb_1_W_deta" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_TTBAR-onelep_jetb_1_W_deta">&#9875;</a><a href="onelep_jetb_1_W_deta.py">&#8984;</a><a href="onelep_jetb_1_W_deta__data.py">&#128202;</a> onelep_jetb_1_W_deta:<br/>
+    <a name="MC_TTBAR-onelep_jetb_1_W_deta"><a href="onelep_jetb_1_W_deta.pdf">
+      <img src="onelep_jetb_1_W_deta.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_onelep_jetb_1_W_dphi" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_TTBAR-onelep_jetb_1_W_dphi">&#9875;</a><a href="onelep_jetb_1_W_dphi.py">&#8984;</a><a href="onelep_jetb_1_W_dphi__data.py">&#128202;</a> onelep_jetb_1_W_dphi:<br/>
+    <a name="MC_TTBAR-onelep_jetb_1_W_dphi"><a href="onelep_jetb_1_W_dphi.pdf">
+      <img src="onelep_jetb_1_W_dphi.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_onelep_jetb_1_jetb_2_dR" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_TTBAR-onelep_jetb_1_jetb_2_dR">&#9875;</a><a href="onelep_jetb_1_jetb_2_dR.py">&#8984;</a><a href="onelep_jetb_1_jetb_2_dR__data.py">&#128202;</a> onelep_jetb_1_jetb_2_dR:<br/>
+    <a name="MC_TTBAR-onelep_jetb_1_jetb_2_dR"><a href="onelep_jetb_1_jetb_2_dR.pdf">
+      <img src="onelep_jetb_1_jetb_2_dR.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_onelep_jetb_1_jetb_2_deta" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_TTBAR-onelep_jetb_1_jetb_2_deta">&#9875;</a><a href="onelep_jetb_1_jetb_2_deta.py">&#8984;</a><a href="onelep_jetb_1_jetb_2_deta__data.py">&#128202;</a> onelep_jetb_1_jetb_2_deta:<br/>
+    <a name="MC_TTBAR-onelep_jetb_1_jetb_2_deta"><a href="onelep_jetb_1_jetb_2_deta.pdf">
+      <img src="onelep_jetb_1_jetb_2_deta.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_onelep_jetb_1_jetb_2_dphi" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_TTBAR-onelep_jetb_1_jetb_2_dphi">&#9875;</a><a href="onelep_jetb_1_jetb_2_dphi.py">&#8984;</a><a href="onelep_jetb_1_jetb_2_dphi__data.py">&#128202;</a> onelep_jetb_1_jetb_2_dphi:<br/>
+    <a name="MC_TTBAR-onelep_jetb_1_jetb_2_dphi"><a href="onelep_jetb_1_jetb_2_dphi.pdf">
+      <img src="onelep_jetb_1_jetb_2_dphi.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_onelep_jetb_1_jetl_1_dR" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_TTBAR-onelep_jetb_1_jetl_1_dR">&#9875;</a><a href="onelep_jetb_1_jetl_1_dR.py">&#8984;</a><a href="onelep_jetb_1_jetl_1_dR__data.py">&#128202;</a> onelep_jetb_1_jetl_1_dR:<br/>
+    <a name="MC_TTBAR-onelep_jetb_1_jetl_1_dR"><a href="onelep_jetb_1_jetl_1_dR.pdf">
+      <img src="onelep_jetb_1_jetl_1_dR.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_onelep_jetb_1_jetl_1_deta" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_TTBAR-onelep_jetb_1_jetl_1_deta">&#9875;</a><a href="onelep_jetb_1_jetl_1_deta.py">&#8984;</a><a href="onelep_jetb_1_jetl_1_deta__data.py">&#128202;</a> onelep_jetb_1_jetl_1_deta:<br/>
+    <a name="MC_TTBAR-onelep_jetb_1_jetl_1_deta"><a href="onelep_jetb_1_jetl_1_deta.pdf">
+      <img src="onelep_jetb_1_jetl_1_deta.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_onelep_jetb_1_jetl_1_dphi" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_TTBAR-onelep_jetb_1_jetl_1_dphi">&#9875;</a><a href="onelep_jetb_1_jetl_1_dphi.py">&#8984;</a><a href="onelep_jetb_1_jetl_1_dphi__data.py">&#128202;</a> onelep_jetb_1_jetl_1_dphi:<br/>
+    <a name="MC_TTBAR-onelep_jetb_1_jetl_1_dphi"><a href="onelep_jetb_1_jetl_1_dphi.pdf">
+      <img src="onelep_jetb_1_jetl_1_dphi.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_onelep_jetb_1_l_dR" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_TTBAR-onelep_jetb_1_l_dR">&#9875;</a><a href="onelep_jetb_1_l_dR.py">&#8984;</a><a href="onelep_jetb_1_l_dR__data.py">&#128202;</a> onelep_jetb_1_l_dR:<br/>
+    <a name="MC_TTBAR-onelep_jetb_1_l_dR"><a href="onelep_jetb_1_l_dR.pdf">
+      <img src="onelep_jetb_1_l_dR.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_onelep_jetb_1_l_deta" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_TTBAR-onelep_jetb_1_l_deta">&#9875;</a><a href="onelep_jetb_1_l_deta.py">&#8984;</a><a href="onelep_jetb_1_l_deta__data.py">&#128202;</a> onelep_jetb_1_l_deta:<br/>
+    <a name="MC_TTBAR-onelep_jetb_1_l_deta"><a href="onelep_jetb_1_l_deta.pdf">
+      <img src="onelep_jetb_1_l_deta.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_onelep_jetb_1_l_dphi" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_TTBAR-onelep_jetb_1_l_dphi">&#9875;</a><a href="onelep_jetb_1_l_dphi.py">&#8984;</a><a href="onelep_jetb_1_l_dphi__data.py">&#128202;</a> onelep_jetb_1_l_dphi:<br/>
+    <a name="MC_TTBAR-onelep_jetb_1_l_dphi"><a href="onelep_jetb_1_l_dphi.pdf">
+      <img src="onelep_jetb_1_l_dphi.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_onelep_jetb_1_l_mass" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_TTBAR-onelep_jetb_1_l_mass">&#9875;</a><a href="onelep_jetb_1_l_mass.py">&#8984;</a><a href="onelep_jetb_1_l_mass__data.py">&#128202;</a> onelep_jetb_1_l_mass:<br/>
+    <a name="MC_TTBAR-onelep_jetb_1_l_mass"><a href="onelep_jetb_1_l_mass.pdf">
+      <img src="onelep_jetb_1_l_mass.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_onelep_jetb_1_pT" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_TTBAR-onelep_jetb_1_pT">&#9875;</a><a href="onelep_jetb_1_pT.py">&#8984;</a><a href="onelep_jetb_1_pT__data.py">&#128202;</a> onelep_jetb_1_pT:<br/>
+    <a name="MC_TTBAR-onelep_jetb_1_pT"><a href="onelep_jetb_1_pT.pdf">
+      <img src="onelep_jetb_1_pT.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_onelep_jetb_2_pT" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_TTBAR-onelep_jetb_2_pT">&#9875;</a><a href="onelep_jetb_2_pT.py">&#8984;</a><a href="onelep_jetb_2_pT__data.py">&#128202;</a> onelep_jetb_2_pT:<br/>
+    <a name="MC_TTBAR-onelep_jetb_2_pT"><a href="onelep_jetb_2_pT.pdf">
+      <img src="onelep_jetb_2_pT.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_onelep_jetl_1_jetl_2_dR" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_TTBAR-onelep_jetl_1_jetl_2_dR">&#9875;</a><a href="onelep_jetl_1_jetl_2_dR.py">&#8984;</a><a href="onelep_jetl_1_jetl_2_dR__data.py">&#128202;</a> onelep_jetl_1_jetl_2_dR:<br/>
+    <a name="MC_TTBAR-onelep_jetl_1_jetl_2_dR"><a href="onelep_jetl_1_jetl_2_dR.pdf">
+      <img src="onelep_jetl_1_jetl_2_dR.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_onelep_jetl_1_jetl_2_deta" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_TTBAR-onelep_jetl_1_jetl_2_deta">&#9875;</a><a href="onelep_jetl_1_jetl_2_deta.py">&#8984;</a><a href="onelep_jetl_1_jetl_2_deta__data.py">&#128202;</a> onelep_jetl_1_jetl_2_deta:<br/>
+    <a name="MC_TTBAR-onelep_jetl_1_jetl_2_deta"><a href="onelep_jetl_1_jetl_2_deta.pdf">
+      <img src="onelep_jetl_1_jetl_2_deta.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_onelep_jetl_1_jetl_2_dphi" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_TTBAR-onelep_jetl_1_jetl_2_dphi">&#9875;</a><a href="onelep_jetl_1_jetl_2_dphi.py">&#8984;</a><a href="onelep_jetl_1_jetl_2_dphi__data.py">&#128202;</a> onelep_jetl_1_jetl_2_dphi:<br/>
+    <a name="MC_TTBAR-onelep_jetl_1_jetl_2_dphi"><a href="onelep_jetl_1_jetl_2_dphi.pdf">
+      <img src="onelep_jetl_1_jetl_2_dphi.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_onelep_jetl_1_pT" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_TTBAR-onelep_jetl_1_pT">&#9875;</a><a href="onelep_jetl_1_pT.py">&#8984;</a><a href="onelep_jetl_1_pT__data.py">&#128202;</a> onelep_jetl_1_pT:<br/>
+    <a name="MC_TTBAR-onelep_jetl_1_pT"><a href="onelep_jetl_1_pT.pdf">
+      <img src="onelep_jetl_1_pT.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_onelep_jetl_2_pT" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_TTBAR-onelep_jetl_2_pT">&#9875;</a><a href="onelep_jetl_2_pT.py">&#8984;</a><a href="onelep_jetl_2_pT__data.py">&#128202;</a> onelep_jetl_2_pT:<br/>
+    <a name="MC_TTBAR-onelep_jetl_2_pT"><a href="onelep_jetl_2_pT.pdf">
+      <img src="onelep_jetl_2_pT.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_onelep_t_mass" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_TTBAR-onelep_t_mass">&#9875;</a><a href="onelep_t_mass.py">&#8984;</a><a href="onelep_t_mass__data.py">&#128202;</a> onelep_t_mass:<br/>
+    <a name="MC_TTBAR-onelep_t_mass"><a href="onelep_t_mass.pdf">
+      <img src="onelep_t_mass.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_onelep_t_mass_W_cut" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_TTBAR-onelep_t_mass_W_cut">&#9875;</a><a href="onelep_t_mass_W_cut.py">&#8984;</a><a href="onelep_t_mass_W_cut__data.py">&#128202;</a> onelep_t_mass_W_cut:<br/>
+    <a name="MC_TTBAR-onelep_t_mass_W_cut"><a href="onelep_t_mass_W_cut.pdf">
+      <img src="onelep_t_mass_W_cut.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_onelep_tt_mass" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_TTBAR-onelep_tt_mass">&#9875;</a><a href="onelep_tt_mass.py">&#8984;</a><a href="onelep_tt_mass__data.py">&#128202;</a> onelep_tt_mass:<br/>
+    <a name="MC_TTBAR-onelep_tt_mass"><a href="onelep_tt_mass.pdf">
+      <img src="onelep_tt_mass.png">
+    </a></a>
+  </div>
+</section>
+
+<footer>
+<p id="timestamp">Generated at Thursday, 05. September 2024 02:49PM</p>
+</footer>
+
+</body>
+</html>
