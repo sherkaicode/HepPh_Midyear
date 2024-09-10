@@ -1,0 +1,19 @@
+# monojet search
+
+Inputfile:
+XSect:           694500 fb
+ Error:          3628 fb
+MCEvents:        10000
+ SumOfWeights:   10000
+ SumOfWeights2:  10000
+ NormEvents:     2.50714e+07
+
+Cut                 Sum_W  Sum_W2  Acc     N_Norm       
+0_nocuts            10000  10000   1       2.50714e+07  
+a_All               2211   2211    0.2211  5.5433e+06   
+b_Vertex            2211   2211    0.2211  5.5433e+06   
+c_NoLep             1127   1127    0.1127  2.82555e+06  
+d_SubleadingJetCut  768    768     0.0768  1.92549e+06  
+e_dPhiCut           564    564     0.0564  1.41403e+06  
+f_LeadingJetCut     6      6       0.0006  15042.9      
+g_MeT1              2      2       0.0002  5014.29      

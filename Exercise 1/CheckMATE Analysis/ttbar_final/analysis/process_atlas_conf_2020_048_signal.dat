@@ -1,0 +1,37 @@
+# dark matter monojet
+
+Inputfile:
+XSect:           694500 fb
+ Error:          3628 fb
+MCEvents:        10000
+ SumOfWeights:   10000
+ SumOfWeights2:  10000
+ NormEvents:     9.65355e+07
+
+SR    Sum_W  Sum_W2  Acc     N_Norm   
+EM00  4      4       0.0004  38614.2  
+EM01  1      1       0.0001  9653.55  
+EM02  0      0       0       0        
+EM03  0      0       0       0        
+EM04  0      0       0       0        
+EM05  0      0       0       0        
+EM06  0      0       0       0        
+EM07  0      0       0       0        
+EM08  0      0       0       0        
+EM09  0      0       0       0        
+EM10  0      0       0       0        
+EM11  0      0       0       0        
+EM12  0      0       0       0        
+IM00  5      5       0.0005  48267.8  
+IM01  1      1       0.0001  9653.55  
+IM02  0      0       0       0        
+IM03  0      0       0       0        
+IM04  0      0       0       0        
+IM05  0      0       0       0        
+IM06  0      0       0       0        
+IM07  0      0       0       0        
+IM08  0      0       0       0        
+IM09  0      0       0       0        
+IM10  0      0       0       0        
+IM11  0      0       0       0        
+IM12  0      0       0       0        

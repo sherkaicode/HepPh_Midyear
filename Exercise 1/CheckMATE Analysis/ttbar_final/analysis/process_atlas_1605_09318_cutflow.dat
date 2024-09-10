@@ -1,0 +1,23 @@
+# Search for pair-production of gluinos decaying via stop and
+# sbottom in events with b-jets and large missing transverse
+# momentum in sqrt(s) = 13 TeV p p collisions with the ATLAS detector
+
+Inputfile:
+XSect:           694500 fb
+ Error:          3628 fb
+MCEvents:        10000
+ SumOfWeights:   10000
+ SumOfWeights2:  10000
+ NormEvents:     2.29185e+06
+
+Cut                                  Sum_W  Sum_W2  Acc     N_Norm       
+0.0_Preselection_nocuts              10000  10000   1       2.29185e+06  
+0.1_Preselection_nJets               5687   5687    0.5687  1.30338e+06  
+0.2_Preselection_nBJets              1249   1249    0.1249  286252       
+0.3_Preselection_etmiss              12     12      0.0012  2750.22      
+1.1_GbbPreselection_leptonveto       5      5       0.0005  1145.92      
+1.2_Gbb_Preselection_dphimin         4      4       0.0004  916.74       
+3.1_Gtt-0L-Preselection_lepton_veto  5      5       0.0005  1145.92      
+3.2_SR-Gtt-0L-Preselection_deltaPhi  4      4       0.0004  916.74       
+5.1_Gtt-1L-Preselection_nLeptons     7      7       0.0007  1604.3       
+5.2_Gtt-1L-Preselection_nJets        3      3       0.0003  687.555      

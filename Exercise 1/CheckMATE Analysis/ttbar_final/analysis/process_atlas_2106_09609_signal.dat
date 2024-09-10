@@ -1,0 +1,33 @@
+# ATLAS search for RPV susy in a final state containing leptons and many jets
+
+Inputfile:
+XSect:           694500 fb
+ Error:          3628 fb
+MCEvents:        10000
+ SumOfWeights:   10000
+ SumOfWeights2:  10000
+ NormEvents:     9.65355e+07
+
+SR    Sum_W  Sum_W2  Acc  N_Norm  
+SR0   0      0       0    0       
+SR1   0      0       0    0       
+SR10  0      0       0    0       
+SR11  0      0       0    0       
+SR12  0      0       0    0       
+SR13  0      0       0    0       
+SR14  0      0       0    0       
+SR15  0      0       0    0       
+SR16  0      0       0    0       
+SR17  0      0       0    0       
+SR18  0      0       0    0       
+SR19  0      0       0    0       
+SR2   0      0       0    0       
+SR20  0      0       0    0       
+SR21  0      0       0    0       
+SR3   0      0       0    0       
+SR4   0      0       0    0       
+SR5   0      0       0    0       
+SR6   0      0       0    0       
+SR7   0      0       0    0       
+SR8   0      0       0    0       
+SR9   0      0       0    0       

@@ -1,0 +1,12 @@
+# photon+MET search 13 TeV
+
+Inputfile:
+XSect:           694500 fb
+ Error:          3628 fb
+MCEvents:        10000
+ SumOfWeights:   10000
+ SumOfWeights2:  10000
+ NormEvents:     2.2224e+06
+
+SR   Sum_W  Sum_W2  Acc  N_Norm  
+SR1  0      0       0    0       

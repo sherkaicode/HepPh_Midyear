@@ -1,0 +1,19 @@
+# search for GMSB with photons
+
+Inputfile:
+XSect:           694500 fb
+ Error:          3628 fb
+MCEvents:        10000
+ SumOfWeights:   10000
+ SumOfWeights2:  10000
+ NormEvents:     2.50714e+07
+
+Cut                    Sum_W  Sum_W2  Acc     N_Norm       
+00_all                 10000  10000   1       2.50714e+07  
+SRajH_02_photon_pt     4      4       0.0004  10028.6      
+SRajH_03_njets         4      4       0.0004  10028.6      
+SRajL200_02_photon_pt  4      4       0.0004  10028.6      
+SRajL200_03_njets      2      2       0.0002  5014.29      
+SRajL_02_photon_pt     4      4       0.0004  10028.6      
+SRajL_03_njets         2      2       0.0002  5014.29      
+SRaj_01_1photon        125    125     0.0125  313393       

@@ -1,0 +1,18 @@
+# search for direct stau production
+
+Inputfile:
+XSect:           694500 fb
+ Error:          3628 fb
+MCEvents:        10000
+ SumOfWeights:   10000
+ SumOfWeights2:  10000
+ NormEvents:     9.65355e+07
+
+Cut                             Sum_W  Sum_W2  Acc     N_Norm       
+01_overlap removal              10000  10000   1       9.65355e+07  
+02_nrTauJets != 2               25     25      0.0025  241339       
+03_OS_taujets                   12     12      0.0012  115843       
+04_taujets pt cuts              6      6       0.0006  57921.3      
+05_lepton veto                  6      6       0.0006  57921.3      
+06_bjets veto                   6      6       0.0006  57921.3      
+07_tau pair invariant mass cut  2      2       0.0002  19307.1      

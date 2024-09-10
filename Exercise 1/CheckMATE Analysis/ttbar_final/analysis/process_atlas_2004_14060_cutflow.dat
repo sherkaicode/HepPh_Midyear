@@ -1,0 +1,68 @@
+# stops, leptoquarks, 0 lepton
+
+Inputfile:
+XSect:           694500 fb
+ Error:          3628 fb
+MCEvents:        10000
+ SumOfWeights:   10000
+ SumOfWeights2:  10000
+ NormEvents:     9.65355e+07
+
+Cut                      Sum_W  Sum_W2  Acc     N_Norm       
+00_all                   10000  10000   1       9.65355e+07  
+01_deriv_skim            8137   8137    0.8137  7.85509e+07  
+02_MET>250               32     32      0.0032  308914       
+SRA-T0_03_4jets          24     24      0.0024  231685       
+SRA-T0_04_2bjets         8      8       0.0008  77228.4      
+SRA-T0_05_lepton_veto    4      4       0.0004  38614.2      
+SRA-T0_06_jet4>40        2      2       0.0002  19307.1      
+SRA-T0_07_jet2>80        2      2       0.0002  19307.1      
+SRA-T0_08_dPhi(jet,MET)  2      2       0.0002  19307.1      
+SRA-T0_09_mTbmin>50      2      2       0.0002  19307.1      
+SRA-T0_10_tauveto        2      2       0.0002  19307.1      
+SRA-TT_03_4jets          24     24      0.0024  231685       
+SRA-TT_04_2bjets         8      8       0.0008  77228.4      
+SRA-TT_05_lepton_veto    4      4       0.0004  38614.2      
+SRA-TT_06_jet4>40        2      2       0.0002  19307.1      
+SRA-TT_07_jet2>80        2      2       0.0002  19307.1      
+SRA-TT_08_dPhi(jet,MET)  2      2       0.0002  19307.1      
+SRA-TT_09_mTbmin>50      2      2       0.0002  19307.1      
+SRA-TT_10_tauveto        2      2       0.0002  19307.1      
+SRA-TW_03_4jets          24     24      0.0024  231685       
+SRA-TW_04_2bjets         8      8       0.0008  77228.4      
+SRA-TW_05_lepton_veto    4      4       0.0004  38614.2      
+SRA-TW_06_jet4>40        2      2       0.0002  19307.1      
+SRA-TW_07_jet2>80        2      2       0.0002  19307.1      
+SRA-TW_08_dPhi(jet,MET)  2      2       0.0002  19307.1      
+SRA-TW_09_mTbmin>50      2      2       0.0002  19307.1      
+SRA-TW_10_tauveto        2      2       0.0002  19307.1      
+SRB-T0_03_4jets          24     24      0.0024  231685       
+SRB-T0_04_2bjets         8      8       0.0008  77228.4      
+SRB-T0_05_lepton_veto    4      4       0.0004  38614.2      
+SRB-T0_06_jet4>40        2      2       0.0002  19307.1      
+SRB-T0_07_jet2>80        2      2       0.0002  19307.1      
+SRB-T0_08_dPhi(jet,MET)  2      2       0.0002  19307.1      
+SRB-T0_09_mTbmin>50      2      2       0.0002  19307.1      
+SRB-T0_10_tauveto        2      2       0.0002  19307.1      
+SRB-TT_03_4jets          24     24      0.0024  231685       
+SRB-TT_04_2bjets         8      8       0.0008  77228.4      
+SRB-TT_05_lepton_veto    4      4       0.0004  38614.2      
+SRB-TT_06_jet4>40        2      2       0.0002  19307.1      
+SRB-TT_07_jet2>80        2      2       0.0002  19307.1      
+SRB-TT_08_dPhi(jet,MET)  2      2       0.0002  19307.1      
+SRB-TT_09_mTbmin>50      2      2       0.0002  19307.1      
+SRB-TT_10_tauveto        2      2       0.0002  19307.1      
+SRB-TW_03_4jets          24     24      0.0024  231685       
+SRB-TW_04_2bjets         8      8       0.0008  77228.4      
+SRB-TW_05_lepton_veto    4      4       0.0004  38614.2      
+SRB-TW_06_jet4>40        2      2       0.0002  19307.1      
+SRB-TW_07_jet2>80        2      2       0.0002  19307.1      
+SRB-TW_08_dPhi(jet,MET)  2      2       0.0002  19307.1      
+SRB-TW_09_mTbmin>50      2      2       0.0002  19307.1      
+SRB-TW_10_tauveto        2      2       0.0002  19307.1      
+SRD1_08_btrackPT>10      1      1       0.0001  9653.55      
+SRD_03_lepton_veto       10     10      0.001   96535.5      
+SRD_04_jISR>250          2      2       0.0002  19307.1      
+SRD_05_dPhi1>2.4         1      1       0.0001  9653.55      
+SRD_06_dPhi2<pi/3        1      1       0.0001  9653.55      
+SRD_07_trackMET>30       1      1       0.0001  9653.55      

@@ -1,0 +1,62 @@
+# CMS
+# 13 TeV, lumi 2.2 fb^-1
+# Search for new physics in final states with two
+# opposite-sign same-flavor leptons, jets and MET in pp
+# collisions at sqrt(s) = 13 TeV
+
+Inputfile:
+XSect:           694500 fb
+ Error:          3628 fb
+MCEvents:        10000
+ SumOfWeights:   10000
+ SumOfWeights2:  10000
+ NormEvents:     1.5279e+06
+
+SR                         Sum_W  Sum_W2  Acc     N_Norm  
+SRA_b0_a.lowMET            0      0       0       0       
+SRA_b0_b.mediumMET         0      0       0       0       
+SRA_b0_c.highMET           0      0       0       0       
+SRA_b0_d.vhighMET          0      0       0       0       
+SRA_b1_a.lowMET            0      0       0       0       
+SRA_b1_b.mediumMET         0      0       0       0       
+SRA_b1_c.highMET           0      0       0       0       
+SRA_b1_d.vhighMET          0      0       0       0       
+SRB_b0_a.lowMET            0      0       0       0       
+SRB_b0_b.mediumMET         0      0       0       0       
+SRB_b0_c.highMET           0      0       0       0       
+SRB_b0_d.vhighMET          0      0       0       0       
+SRB_b1_a.lowMET            0      0       0       0       
+SRB_b1_b.mediumMET         0      0       0       0       
+SRB_b1_c.highMET           0      0       0       0       
+SRB_b1_d.vhighMET          0      0       0       0       
+SRC_ATLAS                  0      0       0       0       
+SRD_cen_a.vlowMll_b0       0      0       0       0       
+SRD_cen_a.vlowMll_b1       3      3       0.0003  458.37  
+SRD_cen_a.vlowMll_b_all    3      3       0.0003  458.37  
+SRD_cen_b.lowMll_b0        0      0       0       0       
+SRD_cen_b.lowMll_b1        1      1       0.0001  152.79  
+SRD_cen_b.lowMll_b_all     1      1       0.0001  152.79  
+SRD_cen_c.mediumMll_b0     0      0       0       0       
+SRD_cen_c.mediumMll_b1     0      0       0       0       
+SRD_cen_c.mediumMll_b_all  0      0       0       0       
+SRD_cen_d.highMll_b0       0      0       0       0       
+SRD_cen_d.highMll_b1       0      0       0       0       
+SRD_cen_d.highMll_b_all    0      0       0       0       
+SRD_cen_e.vhighMll_b0      0      0       0       0       
+SRD_cen_e.vhighMll_b1      1      1       0.0001  152.79  
+SRD_cen_e.vhighMll_b_all   1      1       0.0001  152.79  
+SRE_for_a.vlowMll_b0       0      0       0       0       
+SRE_for_a.vlowMll_b1       0      0       0       0       
+SRE_for_a.vlowMll_b_all    0      0       0       0       
+SRE_for_b.lowMll_b0        0      0       0       0       
+SRE_for_b.lowMll_b1        0      0       0       0       
+SRE_for_b.lowMll_b_all     0      0       0       0       
+SRE_for_c.mediumMll_b0     0      0       0       0       
+SRE_for_c.mediumMll_b1     1      1       0.0001  152.79  
+SRE_for_c.mediumMll_b_all  1      1       0.0001  152.79  
+SRE_for_d.highMll_b0       0      0       0       0       
+SRE_for_d.highMll_b1       0      0       0       0       
+SRE_for_d.highMll_b_all    0      0       0       0       
+SRE_for_e.vhighMll_b0      0      0       0       0       
+SRE_for_e.vhighMll_b1      0      0       0       0       
+SRE_for_e.vhighMll_b_all   0      0       0       0       

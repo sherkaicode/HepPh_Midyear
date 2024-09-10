@@ -1,0 +1,31 @@
+# gluinos/squarks, 1 lepton, jets, MET
+
+Inputfile:
+XSect:           694500 fb
+ Error:          3628 fb
+MCEvents:        10000
+ SumOfWeights:   10000
+ SumOfWeights2:  10000
+ NormEvents:     9.65355e+07
+
+Cut                   Sum_W  Sum_W2  Acc     N_Norm       
+00_all                10000  10000   1       9.65355e+07  
+01_preselection       47     47      0.0047  453717       
+2J_btag_02_leptonPT   13     13      0.0013  125496       
+2J_bveto_02_leptonPT  13     13      0.0013  125496       
+4J_btag_02_leptonPT   34     34      0.0034  328221       
+4J_btag_03_Njet       8      8       0.0008  77228.4      
+4J_btag_04_btag       8      8       0.0008  77228.4      
+4J_btag_05_MET>300    1      1       0.0001  9653.55      
+4J_btag_06_MET/Meff   1      1       0.0001  9653.55      
+4J_btag_07_aplan      1      1       0.0001  9653.55      
+4J_bveto_02_leptonPT  34     34      0.0034  328221       
+4J_bveto_03_Njet      8      8       0.0008  77228.4      
+6J_btag_02_leptonPT   34     34      0.0034  328221       
+6J_btag_03_Njet       6      6       0.0006  57921.3      
+6J_btag_04_btag       4      4       0.0004  38614.2      
+6J_btag_05_aplan      2      2       0.0002  19307.1      
+6J_btag_06_Meff>700   2      2       0.0002  19307.1      
+6J_bveto_02_leptonPT  34     34      0.0034  328221       
+6J_bveto_03_Njet      6      6       0.0006  57921.3      
+6J_bveto_04_btag      2      2       0.0002  19307.1      

@@ -1,0 +1,12 @@
+# A search for supersymmetry in events containing a leptonically decaying Z boson, jets and missing transverse momentum in sqrt(s)=13TeV p p collisions with the ATLAS detector
+
+Inputfile:
+XSect:           694500 fb
+ Error:          3628 fb
+MCEvents:        10000
+ SumOfWeights:   10000
+ SumOfWeights2:  10000
+ NormEvents:     2.2224e+06
+
+SR   Sum_W  Sum_W2  Acc  N_Norm  
+SRZ  0      0       0    0       

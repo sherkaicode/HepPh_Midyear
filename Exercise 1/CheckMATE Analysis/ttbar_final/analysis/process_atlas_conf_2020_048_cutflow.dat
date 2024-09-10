@@ -1,0 +1,22 @@
+# dark matter monojet
+
+Inputfile:
+XSect:           694500 fb
+ Error:          3628 fb
+MCEvents:        10000
+ SumOfWeights:   10000
+ SumOfWeights2:  10000
+ NormEvents:     9.65355e+07
+
+Cut            Sum_W  Sum_W2  Acc     N_Norm       
+00_all         10000  10000   1       9.65355e+07  
+01_trigger     831    831     0.0831  8.0221e+06   
+02_1jet        826    826     0.0826  7.97383e+06  
+03_4jets       629    629     0.0629  6.07208e+06  
+04_leptonveto  219    219     0.0219  2.11413e+06  
+05_tauveto     188    188     0.0188  1.81487e+06  
+06_photonveto  176    176     0.0176  1.69902e+06  
+07_met>200     18     18      0.0018  173764       
+08_dphi        13     13      0.0013  125496       
+09_pt>150      5      5       0.0005  48267.8      
+10_eta<2.4     5      5       0.0005  48267.8      

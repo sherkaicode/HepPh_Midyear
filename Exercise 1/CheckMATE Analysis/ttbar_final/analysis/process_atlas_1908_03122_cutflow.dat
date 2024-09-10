@@ -1,0 +1,28 @@
+# ATLAS
+# atlas_1908_03122
+# 0 leptons, 3 or more b-jets, etmiss
+# sqrt(s) = 13 TeV
+# int(L) = 139 fb^-1
+
+Inputfile:
+XSect:           694500 fb
+ Error:          3628 fb
+MCEvents:        10000
+ SumOfWeights:   10000
+ SumOfWeights2:  10000
+ NormEvents:     9.65355e+07
+
+Cut                        Sum_W  Sum_W2  Acc     N_Norm       
+00_no_cuts                 10000  10000   1       9.65355e+07  
+SRA_01_trigger_etmiss      37     37      0.0037  357181       
+SRA_02_N_baseline_leptons  12     12      0.0012  115843       
+SRB_01_trigger_etmiss      291    291     0.0291  2.80918e+06  
+SRB_02_N_baseline_leptons  120    120     0.012   1.15843e+06  
+SRB_03_N_signal_jets       52     52      0.0052  501985       
+SRB_04_N_bjets             1      1       0.0001  9653.55      
+SRC_00_trigger             291    291     0.0291  2.80918e+06  
+SRC_01_N_baseline_leptons  120    120     0.012   1.15843e+06  
+SRC_02_N_signal_jets       71     71      0.0071  685402       
+SRC_03_N_bjets             3      3       0.0003  28960.7      
+SRC_04_etmiss              1      1       0.0001  9653.55      
+SRC_05_deltaphi_min        1      1       0.0001  9653.55      

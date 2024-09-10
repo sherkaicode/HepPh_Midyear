@@ -1,0 +1,44 @@
+#ATLAS
+#ATLAS-CONF-2016-050
+#1 lepton + jets + etmiss
+#sqrt(s) = 13 TeV
+#int(L) = 13.2 fb^-1
+
+Inputfile:
+XSect:           694500 fb
+ Error:          3628 fb
+MCEvents:        10000
+ SumOfWeights:   10000
+ SumOfWeights2:  10000
+ NormEvents:     9.1674e+06
+
+Cut                   Sum_W  Sum_W2  Acc     N_Norm   
+0_trigger_etmiss      99     99      0.0099  90757.3  
+1_lepton_onelepton    32     32      0.0032  29335.7  
+2_mT                  28     28      0.0028  25668.7  
+3_jets                23     23      0.0023  21085    
+SR1_01_tauveto        6      6       0.0006  5500.44  
+SR1_02_nJets          2      2       0.0002  1833.48  
+SR1_03_JetsPT         1      1       0.0001  916.74   
+SR1_04_etmiss         1      1       0.0001  916.74   
+SR1_05_no             1      1       0.0001  916.74   
+SR1_06_htmiss         1      1       0.0001  916.74   
+bC2x_diag_01_tauveto  6      6       0.0006  5500.44  
+bC2x_diag_02_nJets    1      1       0.0001  916.74   
+bC2x_diag_03_JetsPT   1      1       0.0001  916.74   
+bC2x_diag_04_bJetsPT  1      1       0.0001  916.74   
+bC2x_diag_05_etmiss   1      1       0.0001  916.74   
+bC2x_diag_06_htmiss   1      1       0.0001  916.74   
+bC2x_med_01_tauveto   6      6       0.0006  5500.44  
+bC2x_med_02_nJets     1      1       0.0001  916.74   
+bC2x_med_03_JetsPT    1      1       0.0001  916.74   
+bC2x_med_04_bJetsPT   1      1       0.0001  916.74   
+bC2x_med_05_etmiss    1      1       0.0001  916.74   
+bC2x_med_06_htmiss    1      1       0.0001  916.74   
+bCbv_01_no            23     23      0.0023  21085    
+bCbv_02_nJets         3      3       0.0003  2750.22  
+bCbv_03_JetsPT        2      2       0.0002  1833.48  
+bCbv_04_no            2      2       0.0002  1833.48  
+tN_high_01_tauVeto    6      6       0.0006  5500.44  
+tN_high_02_nJets      2      2       0.0002  1833.48  
+tN_high_03_JetsPT     1      1       0.0001  916.74   

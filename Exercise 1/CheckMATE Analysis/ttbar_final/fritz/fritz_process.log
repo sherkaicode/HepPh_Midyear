@@ -1,0 +1,293 @@
+Fritz: Initialising handlers from file /home/aegis/Research/HEPTools/CheckMATE_v5/checkmate2-master/results/ttbar_final/fritz/process.ini
+Fritz: /home/aegis/Research/HEPTools/CheckMATE_v5/checkmate2-master
+DelphesHandler 'atlas13tev': Initialising Delphes via input event /home/aegis/Research/HEPTools/pythia8.2/pythia8245/examples/ttbar_anal.hepmc
+DelphesHandler 'atlas13tev': Input File determined to be HepMC.
+DelphesHandler 'atlas13tev': Initialising settings from /home/aegis/Research/HEPTools/CheckMATE_v5/checkmate2-master/data/cards/delphes_skimmed_ATLAS_13TeV.tcl
+DelphesHandler 'atlas13tev': Delphes successfully initialised!
+DelphesHandler 'atlas13tev': Input file successfully opened!
+DelphesHandler 'cms13tev': Initialising Delphes via input event /home/aegis/Research/HEPTools/pythia8.2/pythia8245/examples/ttbar_anal.hepmc
+DelphesHandler 'cms13tev': Input File determined to be HepMC.
+DelphesHandler 'cms13tev': Initialising settings from /home/aegis/Research/HEPTools/CheckMATE_v5/checkmate2-master/data/cards/delphes_skimmed_CMS_13TeV.tcl
+DelphesHandler 'cms13tev': Delphes successfully initialised!
+DelphesHandler 'cms13tev': Input file successfully opened!
+AnalysisHandler 'atlas13tev': Initialising AnalysisHandler
+AnalysisHandler 'atlas13tev': Loading Analysis atlas_1604_01306
+AnalysisHandler 'atlas13tev': Successfully loaded analysis atlas_1604_01306
+AnalysisHandler 'atlas13tev': Loading Analysis atlas_1605_09318
+AnalysisHandler 'atlas13tev': Successfully loaded analysis atlas_1605_09318
+AnalysisHandler 'atlas13tev': Loading Analysis atlas_1609_01599
+AnalysisHandler 'atlas13tev': Successfully loaded analysis atlas_1609_01599
+AnalysisHandler 'atlas13tev': Loading Analysis atlas_1704_03848
+AnalysisHandler 'atlas13tev': Successfully loaded analysis atlas_1704_03848
+AnalysisHandler 'atlas13tev': Loading Analysis atlas_1706_03731
+AnalysisHandler 'atlas13tev': Successfully loaded analysis atlas_1706_03731
+AnalysisHandler 'atlas13tev': Loading Analysis atlas_1708_07875
+AnalysisHandler 'atlas13tev': Successfully loaded analysis atlas_1708_07875
+AnalysisHandler 'atlas13tev': Loading Analysis atlas_1709_04183
+AnalysisHandler 'atlas13tev': Successfully loaded analysis atlas_1709_04183
+AnalysisHandler 'atlas13tev': Loading Analysis atlas_1712_02332
+AnalysisHandler 'atlas13tev': Successfully loaded analysis atlas_1712_02332
+AnalysisHandler 'atlas13tev': Loading Analysis atlas_1712_08119
+AnalysisHandler 'atlas13tev': Successfully loaded analysis atlas_1712_08119
+AnalysisHandler 'atlas13tev': Loading Analysis atlas_1802_03158
+AnalysisHandler 'atlas13tev': Successfully loaded analysis atlas_1802_03158
+AnalysisHandler 'atlas13tev': Loading Analysis atlas_1803_02762
+AnalysisHandler 'atlas13tev': Successfully loaded analysis atlas_1803_02762
+AnalysisHandler 'atlas13tev': Loading Analysis atlas_1807_07447
+AnalysisHandler 'atlas13tev': Successfully loaded analysis atlas_1807_07447
+AnalysisHandler 'atlas13tev': Loading Analysis atlas_1908_03122
+AnalysisHandler 'atlas13tev': Successfully loaded analysis atlas_1908_03122
+AnalysisHandler 'atlas13tev': Loading Analysis atlas_1908_08215
+AnalysisHandler 'atlas13tev': Successfully loaded analysis atlas_1908_08215
+AnalysisHandler 'atlas13tev': Loading Analysis atlas_1909_08457
+AnalysisHandler 'atlas13tev': Successfully loaded analysis atlas_1909_08457
+AnalysisHandler 'atlas13tev': Loading Analysis atlas_1911_06660
+AnalysisHandler 'atlas13tev': Successfully loaded analysis atlas_1911_06660
+AnalysisHandler 'atlas13tev': Loading Analysis atlas_1911_12606
+AnalysisHandler 'atlas13tev': Successfully loaded analysis atlas_1911_12606
+AnalysisHandler 'atlas13tev': Loading Analysis atlas_2004_10894
+AnalysisHandler 'atlas13tev': Successfully loaded analysis atlas_2004_10894
+AnalysisHandler 'atlas13tev': Loading Analysis atlas_2004_14060
+AnalysisHandler 'atlas13tev': Successfully loaded analysis atlas_2004_14060
+AnalysisHandler 'atlas13tev': Loading Analysis atlas_2010_14293
+                         : Booking "BDT" of type "BDT" from /home/aegis/Research/HEPTools/CheckMATE_v5/checkmate2-master/data/atlas_2010_14293/BDTxml/ZeroLepton2018-SRBDT-GGd1_weight1.xml.
+                         : Reading weight file: /home/aegis/Research/HEPTools/CheckMATE_v5/checkmate2-master/data/atlas_2010_14293/BDTxml/ZeroLepton2018-SRBDT-GGd1_weight1.xml
+<HEADER> DataSetInfo              : [Default] : Added class "Signal"
+<HEADER> DataSetInfo              : [Default] : Added class "Background"
+                         : Booked classifier "BDTG" of type: "BDT"
+                         : Booking "BDT" of type "BDT" from /home/aegis/Research/HEPTools/CheckMATE_v5/checkmate2-master/data/atlas_2010_14293/BDTxml/ZeroLepton2018-SRBDT-GGd1_weight2.xml.
+                         : Reading weight file: /home/aegis/Research/HEPTools/CheckMATE_v5/checkmate2-master/data/atlas_2010_14293/BDTxml/ZeroLepton2018-SRBDT-GGd1_weight2.xml
+<HEADER> DataSetInfo              : [Default] : Added class "Signal"
+<HEADER> DataSetInfo              : [Default] : Added class "Background"
+                         : Booked classifier "BDTG" of type: "BDT"
+                         : Booking "BDT" of type "BDT" from /home/aegis/Research/HEPTools/CheckMATE_v5/checkmate2-master/data/atlas_2010_14293/BDTxml/ZeroLepton2018-SRBDT-GGd2_weight1.xml.
+                         : Reading weight file: /home/aegis/Research/HEPTools/CheckMATE_v5/checkmate2-master/data/atlas_2010_14293/BDTxml/ZeroLepton2018-SRBDT-GGd2_weight1.xml
+<HEADER> DataSetInfo              : [Default] : Added class "Signal"
+<HEADER> DataSetInfo              : [Default] : Added class "Background"
+                         : Booked classifier "BDTG" of type: "BDT"
+                         : Booking "BDT" of type "BDT" from /home/aegis/Research/HEPTools/CheckMATE_v5/checkmate2-master/data/atlas_2010_14293/BDTxml/ZeroLepton2018-SRBDT-GGd2_weight2.xml.
+                         : Reading weight file: /home/aegis/Research/HEPTools/CheckMATE_v5/checkmate2-master/data/atlas_2010_14293/BDTxml/ZeroLepton2018-SRBDT-GGd2_weight2.xml
+<HEADER> DataSetInfo              : [Default] : Added class "Signal"
+<HEADER> DataSetInfo              : [Default] : Added class "Background"
+                         : Booked classifier "BDTG" of type: "BDT"
+                         : Booking "BDT" of type "BDT" from /home/aegis/Research/HEPTools/CheckMATE_v5/checkmate2-master/data/atlas_2010_14293/BDTxml/ZeroLepton2018-SRBDT-GGd3_weight1.xml.
+                         : Reading weight file: /home/aegis/Research/HEPTools/CheckMATE_v5/checkmate2-master/data/atlas_2010_14293/BDTxml/ZeroLepton2018-SRBDT-GGd3_weight1.xml
+<HEADER> DataSetInfo              : [Default] : Added class "Signal"
+<HEADER> DataSetInfo              : [Default] : Added class "Background"
+                         : Booked classifier "BDTG" of type: "BDT"
+                         : Booking "BDT" of type "BDT" from /home/aegis/Research/HEPTools/CheckMATE_v5/checkmate2-master/data/atlas_2010_14293/BDTxml/ZeroLepton2018-SRBDT-GGd3_weight2.xml.
+                         : Reading weight file: /home/aegis/Research/HEPTools/CheckMATE_v5/checkmate2-master/data/atlas_2010_14293/BDTxml/ZeroLepton2018-SRBDT-GGd3_weight2.xml
+<HEADER> DataSetInfo              : [Default] : Added class "Signal"
+<HEADER> DataSetInfo              : [Default] : Added class "Background"
+                         : Booked classifier "BDTG" of type: "BDT"
+                         : Booking "BDT" of type "BDT" from /home/aegis/Research/HEPTools/CheckMATE_v5/checkmate2-master/data/atlas_2010_14293/BDTxml/ZeroLepton2018-SRBDT-GGd4_weight1.xml.
+                         : Reading weight file: /home/aegis/Research/HEPTools/CheckMATE_v5/checkmate2-master/data/atlas_2010_14293/BDTxml/ZeroLepton2018-SRBDT-GGd4_weight1.xml
+<HEADER> DataSetInfo              : [Default] : Added class "Signal"
+<HEADER> DataSetInfo              : [Default] : Added class "Background"
+                         : Booked classifier "BDTG" of type: "BDT"
+                         : Booking "BDT" of type "BDT" from /home/aegis/Research/HEPTools/CheckMATE_v5/checkmate2-master/data/atlas_2010_14293/BDTxml/ZeroLepton2018-SRBDT-GGd4_weight2.xml.
+                         : Reading weight file: /home/aegis/Research/HEPTools/CheckMATE_v5/checkmate2-master/data/atlas_2010_14293/BDTxml/ZeroLepton2018-SRBDT-GGd4_weight2.xml
+<HEADER> DataSetInfo              : [Default] : Added class "Signal"
+<HEADER> DataSetInfo              : [Default] : Added class "Background"
+                         : Booked classifier "BDTG" of type: "BDT"
+                         : Booking "BDT" of type "BDT" from /home/aegis/Research/HEPTools/CheckMATE_v5/checkmate2-master/data/atlas_2010_14293/BDTxml/ZeroLepton2018-SRBDT-GGo1_weight1.xml.
+                         : Reading weight file: /home/aegis/Research/HEPTools/CheckMATE_v5/checkmate2-master/data/atlas_2010_14293/BDTxml/ZeroLepton2018-SRBDT-GGo1_weight1.xml
+<HEADER> DataSetInfo              : [Default] : Added class "Signal"
+<HEADER> DataSetInfo              : [Default] : Added class "Background"
+                         : Booked classifier "BDTG" of type: "BDT"
+                         : Booking "BDT" of type "BDT" from /home/aegis/Research/HEPTools/CheckMATE_v5/checkmate2-master/data/atlas_2010_14293/BDTxml/ZeroLepton2018-SRBDT-GGo1_weight2.xml.
+                         : Reading weight file: /home/aegis/Research/HEPTools/CheckMATE_v5/checkmate2-master/data/atlas_2010_14293/BDTxml/ZeroLepton2018-SRBDT-GGo1_weight2.xml
+<HEADER> DataSetInfo              : [Default] : Added class "Signal"
+<HEADER> DataSetInfo              : [Default] : Added class "Background"
+                         : Booked classifier "BDTG" of type: "BDT"
+                         : Booking "BDT" of type "BDT" from /home/aegis/Research/HEPTools/CheckMATE_v5/checkmate2-master/data/atlas_2010_14293/BDTxml/ZeroLepton2018-SRBDT-GGo2_weight1.xml.
+                         : Reading weight file: /home/aegis/Research/HEPTools/CheckMATE_v5/checkmate2-master/data/atlas_2010_14293/BDTxml/ZeroLepton2018-SRBDT-GGo2_weight1.xml
+<HEADER> DataSetInfo              : [Default] : Added class "Signal"
+<HEADER> DataSetInfo              : [Default] : Added class "Background"
+                         : Booked classifier "BDTG" of type: "BDT"
+                         : Booking "BDT" of type "BDT" from /home/aegis/Research/HEPTools/CheckMATE_v5/checkmate2-master/data/atlas_2010_14293/BDTxml/ZeroLepton2018-SRBDT-GGo2_weight2.xml.
+                         : Reading weight file: /home/aegis/Research/HEPTools/CheckMATE_v5/checkmate2-master/data/atlas_2010_14293/BDTxml/ZeroLepton2018-SRBDT-GGo2_weight2.xml
+<HEADER> DataSetInfo              : [Default] : Added class "Signal"
+<HEADER> DataSetInfo              : [Default] : Added class "Background"
+                         : Booked classifier "BDTG" of type: "BDT"
+                         : Booking "BDT" of type "BDT" from /home/aegis/Research/HEPTools/CheckMATE_v5/checkmate2-master/data/atlas_2010_14293/BDTxml/ZeroLepton2018-SRBDT-GGo3_weight1.xml.
+                         : Reading weight file: /home/aegis/Research/HEPTools/CheckMATE_v5/checkmate2-master/data/atlas_2010_14293/BDTxml/ZeroLepton2018-SRBDT-GGo3_weight1.xml
+<HEADER> DataSetInfo              : [Default] : Added class "Signal"
+<HEADER> DataSetInfo              : [Default] : Added class "Background"
+                         : Booked classifier "BDTG" of type: "BDT"
+                         : Booking "BDT" of type "BDT" from /home/aegis/Research/HEPTools/CheckMATE_v5/checkmate2-master/data/atlas_2010_14293/BDTxml/ZeroLepton2018-SRBDT-GGo3_weight2.xml.
+                         : Reading weight file: /home/aegis/Research/HEPTools/CheckMATE_v5/checkmate2-master/data/atlas_2010_14293/BDTxml/ZeroLepton2018-SRBDT-GGo3_weight2.xml
+<HEADER> DataSetInfo              : [Default] : Added class "Signal"
+<HEADER> DataSetInfo              : [Default] : Added class "Background"
+                         : Booked classifier "BDTG" of type: "BDT"
+                         : Booking "BDT" of type "BDT" from /home/aegis/Research/HEPTools/CheckMATE_v5/checkmate2-master/data/atlas_2010_14293/BDTxml/ZeroLepton2018-SRBDT-GGo4_weight1.xml.
+                         : Reading weight file: /home/aegis/Research/HEPTools/CheckMATE_v5/checkmate2-master/data/atlas_2010_14293/BDTxml/ZeroLepton2018-SRBDT-GGo4_weight1.xml
+<HEADER> DataSetInfo              : [Default] : Added class "Signal"
+<HEADER> DataSetInfo              : [Default] : Added class "Background"
+                         : Booked classifier "BDTG" of type: "BDT"
+                         : Booking "BDT" of type "BDT" from /home/aegis/Research/HEPTools/CheckMATE_v5/checkmate2-master/data/atlas_2010_14293/BDTxml/ZeroLepton2018-SRBDT-GGo4_weight2.xml.
+                         : Reading weight file: /home/aegis/Research/HEPTools/CheckMATE_v5/checkmate2-master/data/atlas_2010_14293/BDTxml/ZeroLepton2018-SRBDT-GGo4_weight2.xml
+<HEADER> DataSetInfo              : [Default] : Added class "Signal"
+<HEADER> DataSetInfo              : [Default] : Added class "Background"
+                         : Booked classifier "BDTG" of type: "BDT"
+AnalysisHandler 'atlas13tev': Successfully loaded analysis atlas_2010_14293
+AnalysisHandler 'atlas13tev': Loading Analysis atlas_2101_01629
+AnalysisHandler 'atlas13tev': Successfully loaded analysis atlas_2101_01629
+AnalysisHandler 'atlas13tev': Loading Analysis atlas_2103_11684
+AnalysisHandler 'atlas13tev': Successfully loaded analysis atlas_2103_11684
+AnalysisHandler 'atlas13tev': Loading Analysis atlas_2106_09609
+AnalysisHandler 'atlas13tev': Successfully loaded analysis atlas_2106_09609
+AnalysisHandler 'atlas13tev': Loading Analysis atlas_2211_08028
+AnalysisHandler 'atlas13tev': Successfully loaded analysis atlas_2211_08028
+AnalysisHandler 'atlas13tev': Loading Analysis atlas_conf_2015_082
+AnalysisHandler 'atlas13tev': Successfully loaded analysis atlas_conf_2015_082
+AnalysisHandler 'atlas13tev': Loading Analysis atlas_conf_2016_013
+AnalysisHandler 'atlas13tev': Successfully loaded analysis atlas_conf_2016_013
+AnalysisHandler 'atlas13tev': Loading Analysis atlas_conf_2016_050
+AnalysisHandler 'atlas13tev': Successfully loaded analysis atlas_conf_2016_050
+AnalysisHandler 'atlas13tev': Loading Analysis atlas_conf_2016_054
+AnalysisHandler 'atlas13tev': Successfully loaded analysis atlas_conf_2016_054
+AnalysisHandler 'atlas13tev': Loading Analysis atlas_conf_2016_066
+AnalysisHandler 'atlas13tev': Successfully loaded analysis atlas_conf_2016_066
+AnalysisHandler 'atlas13tev': Loading Analysis atlas_conf_2016_076
+AnalysisHandler 'atlas13tev': Successfully loaded analysis atlas_conf_2016_076
+AnalysisHandler 'atlas13tev': Loading Analysis atlas_conf_2016_096
+AnalysisHandler 'atlas13tev': Successfully loaded analysis atlas_conf_2016_096
+AnalysisHandler 'atlas13tev': Loading Analysis atlas_conf_2017_060
+AnalysisHandler 'atlas13tev': Successfully loaded analysis atlas_conf_2017_060
+AnalysisHandler 'atlas13tev': Loading Analysis atlas_conf_2019_020
+AnalysisHandler 'atlas13tev': Successfully loaded analysis atlas_conf_2019_020
+AnalysisHandler 'atlas13tev': Loading Analysis atlas_conf_2020_048
+AnalysisHandler 'atlas13tev': Successfully loaded analysis atlas_conf_2020_048
+AnalysisHandler 'atlas13tev': Linking to DelphesHandler 'atlas13tev' tree
+AnalysisHandler 'atlas13tev': AnalysisHandler successfully linked to DelphesHandler 'atlas13tev'
+AnalysisHandler 'cms13tev': Initialising AnalysisHandler
+AnalysisHandler 'cms13tev': Loading Analysis cms_pas_sus_15_011
+AnalysisHandler 'cms13tev': Successfully loaded analysis cms_pas_sus_15_011
+AnalysisHandler 'cms13tev': Loading Analysis cms_sus_16_025
+AnalysisHandler 'cms13tev': Successfully loaded analysis cms_sus_16_025
+AnalysisHandler 'cms13tev': Loading Analysis cms_sus_16_039
+AnalysisHandler 'cms13tev': Successfully loaded analysis cms_sus_16_039
+AnalysisHandler 'cms13tev': Loading Analysis cms_sus_16_048
+AnalysisHandler 'cms13tev': Successfully loaded analysis cms_sus_16_048
+AnalysisHandler 'cms13tev': Linking to DelphesHandler 'cms13tev' tree
+AnalysisHandler 'cms13tev': AnalysisHandler successfully linked to DelphesHandler 'cms13tev'
+Fritz: Fritz successfully loaded command line parameters!
+Fritz:  >> Successfully initialized and linked all handlers! <<
+Fritz: Starting event loop!
+Fritz: Progress: 100 Events
+Fritz: Progress: 200 Events
+Fritz: Progress: 300 Events
+Fritz: Progress: 400 Events
+Fritz: Progress: 500 Events
+Fritz: Progress: 600 Events
+Fritz: Progress: 700 Events
+Fritz: Progress: 800 Events
+Fritz: Progress: 900 Events
+Fritz: Progress: 1000 Events
+Fritz: Progress: 1100 Events
+Fritz: Progress: 1200 Events
+Fritz: Progress: 1300 Events
+Fritz: Progress: 1400 Events
+Fritz: Progress: 1500 Events
+Fritz: Progress: 1600 Events
+Fritz: Progress: 1700 Events
+Fritz: Progress: 1800 Events
+Fritz: Progress: 1900 Events
+Fritz: Progress: 2000 Events
+Fritz: Progress: 2100 Events
+Fritz: Progress: 2200 Events
+Fritz: Progress: 2300 Events
+Fritz: Progress: 2400 Events
+Fritz: Progress: 2500 Events
+Fritz: Progress: 2600 Events
+Fritz: Progress: 2700 Events
+Fritz: Progress: 2800 Events
+Fritz: Progress: 2900 Events
+Fritz: Progress: 3000 Events
+Fritz: Progress: 3100 Events
+Fritz: Progress: 3200 Events
+Fritz: Progress: 3300 Events
+Fritz: Progress: 3400 Events
+Fritz: Progress: 3500 Events
+Fritz: Progress: 3600 Events
+Fritz: Progress: 3700 Events
+Fritz: Progress: 3800 Events
+Fritz: Progress: 3900 Events
+Fritz: Progress: 4000 Events
+Fritz: Progress: 4100 Events
+Fritz: Progress: 4200 Events
+Fritz: Progress: 4300 Events
+Fritz: Progress: 4400 Events
+Fritz: Progress: 4500 Events
+Fritz: Progress: 4600 Events
+Fritz: Progress: 4700 Events
+Fritz: Progress: 4800 Events
+Fritz: Progress: 4900 Events
+Fritz: Progress: 5000 Events
+Fritz: Progress: 5100 Events
+Fritz: Progress: 5200 Events
+Fritz: Progress: 5300 Events
+Fritz: Progress: 5400 Events
+Fritz: Progress: 5500 Events
+Fritz: Progress: 5600 Events
+Fritz: Progress: 5700 Events
+Fritz: Progress: 5800 Events
+Fritz: Progress: 5900 Events
+Fritz: Progress: 6000 Events
+Fritz: Progress: 6100 Events
+Fritz: Progress: 6200 Events
+Fritz: Progress: 6300 Events
+Fritz: Progress: 6400 Events
+Fritz: Progress: 6500 Events
+Fritz: Progress: 6600 Events
+Fritz: Progress: 6700 Events
+Fritz: Progress: 6800 Events
+Fritz: Progress: 6900 Events
+Fritz: Progress: 7000 Events
+Fritz: Progress: 7100 Events
+Fritz: Progress: 7200 Events
+Fritz: Progress: 7300 Events
+Fritz: Progress: 7400 Events
+Fritz: Progress: 7500 Events
+Fritz: Progress: 7600 Events
+Fritz: Progress: 7700 Events
+Fritz: Progress: 7800 Events
+Fritz: Progress: 7900 Events
+Fritz: Progress: 8000 Events
+Fritz: Progress: 8100 Events
+Fritz: Progress: 8200 Events
+Fritz: Progress: 8300 Events
+Fritz: Progress: 8400 Events
+Fritz: Progress: 8500 Events
+Fritz: Progress: 8600 Events
+Fritz: Progress: 8700 Events
+Fritz: Progress: 8800 Events
+Fritz: Progress: 8900 Events
+Fritz: Progress: 9000 Events
+Fritz: Progress: 9100 Events
+Fritz: Progress: 9200 Events
+Fritz: Progress: 9300 Events
+Fritz: Progress: 9400 Events
+Fritz: Progress: 9500 Events
+Fritz: Progress: 9600 Events
+Fritz: Progress: 9700 Events
+Fritz: Progress: 9800 Events
+Fritz: Progress: 9900 Events
+Fritz: Progress: 10000 Events
+Fritz:  >> Finalising after 10000 events. <<
+AnalysisHandler 'atlas13tev': Asking DelphesHandler 'atlas13tev' for cross section information
+DelphesHandler 'atlas13tev': Asking EventFile 'process' for cross section information
+EventFile 'process':  Returning cross section of 694500 fb
+EventFile 'process':  Returning cross section error of 3628 fb
+AnalysisHandler 'atlas13tev': Analyses updated with sigma = 694500 fb and dSigma = 3628 fb
+AnalysisHandler 'atlas13tev': Analyses successfully finished!
+AnalysisHandler 'cms13tev': Asking DelphesHandler 'cms13tev' for cross section information
+DelphesHandler 'cms13tev': Asking EventFile 'process' for cross section information
+EventFile 'process':  Returning cross section of 694500 fb
+EventFile 'process':  Returning cross section error of 3628 fb
+AnalysisHandler 'cms13tev': Analyses updated with sigma = 694500 fb and dSigma = 3628 fb
+AnalysisHandler 'cms13tev': Analyses successfully finished!
+DelphesHandler 'atlas13tev': Delphes successfully finished!
+DelphesHandler 'cms13tev': Delphes successfully finished!
+Fritz:  >> Done <<

@@ -1,0 +1,24 @@
+# search for electroweak production of charginos and sleptons decaying into
+# final states with 2 leptons and MET, 13 TeV, 139/fb
+
+Inputfile:
+XSect:           694500 fb
+ Error:          3628 fb
+MCEvents:        10000
+ SumOfWeights:   10000
+ SumOfWeights2:  10000
+ NormEvents:     9.65355e+07
+
+Cut                Sum_W  Sum_W2  Acc     N_Norm       
+00_all             10000  10000   1       9.65355e+07  
+01_trigger         266    266     0.0266  2.56784e+06  
+02_2OS_signal_lep  180    180     0.018   1.73764e+06  
+03_lepton_pt       129    129     0.0129  1.24531e+06  
+04_mll             127    127     0.0127  1.226e+06    
+05_bveto           15     15      0.0015  144803       
+DF0J_06_nj         1      1       0.0001  9653.55      
+DF0J_07_mll        1      1       0.0001  9653.55      
+DF1J_06_nj         5      5       0.0005  48267.8      
+DF1J_07_mll        2      2       0.0002  19307.1      
+SF0J_06_nj         1      1       0.0001  9653.55      
+SF1J_06_nj         1      1       0.0001  9653.55      

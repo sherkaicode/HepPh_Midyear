@@ -1,0 +1,54 @@
+# A search for supersymmetry in events containing a leptonically decaying Z boson, jets and missing transverse momentum in sqrt(s)=13TeV p p collisions with the ATLAS detector
+
+Inputfile:
+XSect:           694500 fb
+ Error:          3628 fb
+MCEvents:        10000
+ SumOfWeights:   10000
+ SumOfWeights2:  10000
+ NormEvents:     2.2224e+06
+
+Cut                                     Sum_W  Sum_W2  Acc     N_Norm      
+CR00_noCuts                             10000  10000   1       2.2224e+06  
+CR01_leptonTriggerRequirement           0      0       0       0           
+CR02_rejectEventsWithBadJets            0      0       0       0           
+CR03_rejectEventsWithBadMuons           0      0       0       0           
+CR04_primaryVertexGE4tracks             0      0       0       0           
+CR05_vetoEventsWithCosmicMuons          0      0       0       0           
+CR06_GE2leptons                         270    270     0.027   60004.8     
+CR07_fakeMissET                         0      0       0       0           
+CRee08_leptonIsolationTriggerMatching   0      0       0       0           
+CRee09_leptonFlavour                    36     36      0.0036  8000.64     
+CRee10_promptLeptons                    30     30      0.003   6667.2      
+CRee11_oppositeChargeLeptons            29     29      0.0029  6444.96     
+CRee12_GT1jet                           23     23      0.0023  5111.52     
+CRee13_electronCrackVeto                0      0       0       0           
+CRee14_mllGT15                          23     23      0.0023  5111.52     
+CRee15_dPhi(leadingjet,missET)GT0.4     23     23      0.0023  5111.52     
+CRee16_dPhi(subleadingjet,missET)GT0.4  20     20      0.002   4444.8      
+CRee17_mllIn(81,101)                    2      2       0.0002  444.48      
+CRee18_HTGT600                          0      0       0       0           
+CRee19_missETGT225                      0      0       0       0           
+CRmm08_leptonIsolationTriggerMatching   0      0       0       0           
+CRmm09_leptonFlavour                    46     46      0.0046  10223       
+CRmm10_promptLeptons                    35     35      0.0035  7778.4      
+CRmm11_oppositeChargeLeptons            33     33      0.0033  7333.92     
+CRmm12_GT1jet                           23     23      0.0023  5111.52     
+CRmm13_electronCrackVeto                0      0       0       0           
+CRmm14_mllGT15                          23     23      0.0023  5111.52     
+CRmm15_dPhi(leadingjet,missET)GT0.4     19     19      0.0019  4222.56     
+CRmm16_dPhi(subleadingjet,missET)GT0.4  17     17      0.0017  3778.08     
+CRmm17_mllIn(81,101)                    1      1       0.0001  222.24      
+CRmm18_HTGT600                          0      0       0       0           
+CRmm19_missETGT225                      0      0       0       0           
+Jet_hist_10                             0      0       0       0           
+Jet_hist_11                             0      0       0       0           
+Jet_hist_2                              0      0       0       0           
+Jet_hist_3                              0      0       0       0           
+Jet_hist_4                              0      0       0       0           
+Jet_hist_5                              0      0       0       0           
+Jet_hist_6                              0      0       0       0           
+Jet_hist_7                              0      0       0       0           
+Jet_hist_8                              0      0       0       0           
+Jet_hist_9                              0      0       0       0           
+Jet_hist_more                           0      0       0       0           

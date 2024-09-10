@@ -1,0 +1,27 @@
+# search for stop/gluino pair production
+# at least 4 jets, no leptons and MET
+# 36/fb
+
+Inputfile:
+XSect:           694500 fb
+ Error:          3628 fb
+MCEvents:        10000
+ SumOfWeights:   10000
+ SumOfWeights2:  10000
+ NormEvents:     2.50714e+07
+
+SR        Sum_W  Sum_W2  Acc  N_Norm  
+SRA-T0    0      0       0    0       
+SRA-TT    0      0       0    0       
+SRA-TW    0      0       0    0       
+SRB-T0    0      0       0    0       
+SRB-TT    0      0       0    0       
+SRB-TW    0      0       0    0       
+SRC1      0      0       0    0       
+SRC2      0      0       0    0       
+SRC3      0      0       0    0       
+SRC4      0      0       0    0       
+SRC5      0      0       0    0       
+SRD-high  0      0       0    0       
+SRD-low   0      0       0    0       
+SRE       0      0       0    0       

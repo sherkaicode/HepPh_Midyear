@@ -1,0 +1,13 @@
+# Search for Supersymmetry in events with photons, jets and missing transverse energy with the ATLAS detector in 13 TeV pp collisions
+
+Inputfile:
+XSect:           694500 fb
+ Error:          3628 fb
+MCEvents:        10000
+ SumOfWeights:   10000
+ SumOfWeights2:  10000
+ NormEvents:     9.23685e+06
+
+SR   Sum_W  Sum_W2  Acc  N_Norm  
+SRH  0      0       0    0       
+SRL  0      0       0    0       

@@ -1,0 +1,93 @@
+# ATLAS
+# EW SUSY searches
+# 2leptons, 2lep+jets+etmiss, 3lep
+
+Inputfile:
+XSect:           694500 fb
+ Error:          3628 fb
+MCEvents:        10000
+ SumOfWeights:   10000
+ SumOfWeights2:  10000
+ NormEvents:     2.50714e+07
+
+Cut                     Sum_W  Sum_W2  Acc     N_Norm       
+00_all                  10000  10000   1       2.50714e+07  
+01_trigger              2518   2518    0.2518  6.31299e+06  
+2l_01_lepno             185    185     0.0185  463822       
+2l_02_leading_leppt     184    184     0.0184  461315       
+2l_03_no_bjets          36     36      0.0036  90257.2      
+2l_04_no_jets           19     19      0.0019  47635.8      
+2l_05_mll               18     18      0.0018  45128.6      
+2l_06_DFOS              9      9       0.0009  22564.3      
+2l_06_SFOS              9      9       0.0009  22564.3      
+2l_07_DF_mll            3      3       0.0003  7521.44      
+2l_07_SF_mll            3      3       0.0003  7521.44      
+2l_08_DF_100_mT2        0      0       0       0            
+2l_08_SF_loose_mT2      0      0       0       0            
+2l_2j_04_met            2      2       0.0002  5014.29      
+2l_2j_05_nj             1      1       0.0001  2507.14      
+2l_2j_06_ptj            0      0       0       0            
+2l_2j_07_mZ             0      0       0       0            
+2l_2j_08_mW             0      0       0       0            
+2l_2j_09_ptZ            0      0       0       0            
+2l_2j_10_dphimetZ       0      0       0       0            
+2l_2j_11_dphimetW       0      0       0       0            
+2l_2j_12_met_ratio_ptW  0      0       0       0            
+2l_2j_13_met_ratio_ptZ  0      0       0       0            
+2l_3j_05_nj             1      1       0.0001  2507.14      
+2l_3j_06_ptj            1      1       0.0001  2507.14      
+2l_3j_07_mZ             0      0       0       0            
+2l_3j_08_mW             0      0       0       0            
+2l_3j_09_etaZ           0      0       0       0            
+2l_3j_10_ptZ            0      0       0       0            
+2l_3j_11_dphimetISR     0      0       0       0            
+2l_3j_12_dphimetj1      0      0       0       0            
+2l_3j_13_dphimetW       0      0       0       0            
+2l_3j_14_met_ratio_ISR  0      0       0       0            
+2l_3j_15_DRjj           0      0       0       0            
+2l_j_01_nbj             36     36      0.0036  90257.2      
+2l_j_02_leading_leppt   24     24      0.0024  60171.5      
+2l_j_03_nj              17     17      0.0017  42621.5      
+2l_j_04_jetpt           13     13      0.0013  32592.9      
+2l_j_05_met             0      0       0       0            
+2l_j_06_ptZ             0      0       0       0            
+2l_j_07_ptW             0      0       0       0            
+2l_j_08_mZ              0      0       0       0            
+2l_j_09_mW              0      0       0       0            
+2l_j_10_mt2             0      0       0       0            
+2l_j_11_delpWmet        0      0       0       0            
+2l_j_12_DRjj            0      0       0       0            
+2l_j_13_DRll_int        0      0       0       0            
+3l_01_lepno             2      2       0.0002  5014.29      
+3l_02_no_bjet           1      1       0.0001  2507.14      
+3l_03_ptl1              1      1       0.0001  2507.14      
+3l_04_ptl3              1      1       0.0001  2507.14      
+3l_05_SFOS              1      1       0.0001  2507.14      
+3l_06_WZ_m3l            1      1       0.0001  2507.14      
+3l_07_WZ_mll_mZ         1      1       0.0001  2507.14      
+3l_07_slep_mll_mZ       0      0       0       0            
+3l_08_WZ0j_nj           1      1       0.0001  2507.14      
+3l_08_WZ1j_nj           0      0       0       0            
+3l_08_slep_mT           0      0       0       0            
+3l_09_WZ0ja_met         1      1       0.0001  2507.14      
+3l_09_WZ0jb_met         0      0       0       0            
+3l_09_WZ0jc_met         0      0       0       0            
+3l_09_WZ1ja_met         0      0       0       0            
+3l_09_WZ1jb_met         0      0       0       0            
+3l_09_slep_met          0      0       0       0            
+3l_10_WZ0ja_mT          1      1       0.0001  2507.14      
+3l_10_WZ0jb_mT          0      0       0       0            
+3l_10_WZ0jc_mT          0      0       0       0            
+3l_10_WZ1ja_mT          0      0       0       0            
+3l_10_WZ1jb_mT          0      0       0       0            
+3l_10_WZ1jc_mT          0      0       0       0            
+3l_10_slep_mSFOS_high   0      0       0       0            
+3l_10_slep_mSFOS_low    0      0       0       0            
+3l_11_WZ1ja_pt3l        0      0       0       0            
+3l_11_WZ1jc_ptl3        0      0       0       0            
+3l_11_slepa_ptl3        0      0       0       0            
+3l_11_slepb_ptl3        0      0       0       0            
+3l_11_slepc_ptl3        0      0       0       0            
+3l_11_slepd_ptl3        0      0       0       0            
+3l_11_slepe_ptl3        0      0       0       0            
+3l_12_WZ1ja_ptj1        0      0       0       0            

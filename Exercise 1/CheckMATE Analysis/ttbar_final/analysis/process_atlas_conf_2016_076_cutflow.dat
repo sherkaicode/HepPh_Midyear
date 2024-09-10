@@ -1,0 +1,30 @@
+#ATLAS
+#ATLAS-CONF-2016-076
+#2 leptons + jets + etmiss
+#sqrt(s) = 13 TeV
+#int(L) = 13.3 fb^-1
+
+Inputfile:
+XSect:           694500 fb
+ Error:          3628 fb
+MCEvents:        10000
+ SumOfWeights:   10000
+ SumOfWeights2:  10000
+ NormEvents:     9.23685e+06
+
+Cut                Sum_W  Sum_W2  Acc     N_Norm       
+00_all             10000  10000   1       9.23685e+06  
+01_2leptons        283    283     0.0283  261403       
+02_trigger         43     43      0.0043  39718.5      
+SR_high_01_offZ    37     37      0.0037  34176.3      
+SR_high_02_nbjets  13     13      0.0013  12007.9      
+SR_low_01_offZ     37     37      0.0037  34176.3      
+SR_low_02_nbjets   13     13      0.0013  12007.9      
+SR_t_df_01_no      21     21      0.0021  19397.4      
+SR_t_df_02_rpt     17     17      0.0017  15702.6      
+SR_t_sf_01_offZ    21     21      0.0021  19397.4      
+SR_t_sf_02_rpt     18     18      0.0018  16626.3      
+SR_w_df_01_no      21     21      0.0021  19397.4      
+SR_w_df_02_rpt     17     17      0.0017  15702.6      
+SR_w_sf_01_offZ    21     21      0.0021  19397.4      
+SR_w_sf_02_rpt     18     18      0.0018  16626.3      

@@ -1,0 +1,24 @@
+# Search for production of vector-like top quark pairs and of four
+# top quarks in the lepton-plus-jets final state in pp collisions at
+# sqrt(s) = 13 TeV with the ATLAS detector
+
+Inputfile:
+XSect:           694500 fb
+ Error:          3628 fb
+MCEvents:        10000
+ SumOfWeights:   10000
+ SumOfWeights2:  10000
+ NormEvents:     2.2224e+06
+
+SR            Sum_W  Sum_W2  Acc     N_Norm   
+0J_6j_2b      42     42      0.0042  9334.08  
+0J_6j_3b      4      4       0.0004  888.96   
+0J_6j_m4b     0      0       0       0        
+1J_6j_2b      2      2       0.0002  444.48   
+1J_6j_3b-HM   0      0       0       0        
+1J_6j_3b_LM   0      0       0       0        
+1J_6j_m4b-HM  0      0       0       0        
+1J_6j_m4b_LM  0      0       0       0        
+m2J_6j_2b     0      0       0       0        
+m2J_6j_3b     0      0       0       0        
+m2J_6j_m4b    0      0       0       0        

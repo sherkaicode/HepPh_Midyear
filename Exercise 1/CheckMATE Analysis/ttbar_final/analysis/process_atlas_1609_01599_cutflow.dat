@@ -1,0 +1,43 @@
+# ttV cross section measurement at 13 TeV
+# SS mu, 3 or 4 lepton channels
+# ttW and ttZ at 13 TeV 3.2/fb
+
+Inputfile:
+XSect:           694500 fb
+ Error:          3628 fb
+MCEvents:        10000
+ SumOfWeights:   10000
+ SumOfWeights2:  10000
+ NormEvents:     2.2224e+06
+
+Cut               Sum_W  Sum_W2  Acc     N_Norm      
+00_all            10000  10000   1       2.2224e+06  
+01_trigger        2213   2213    0.2213  491817      
+02_leptons>1      295    295     0.0295  65560.8     
+3lZ_07_OSSF       0      0       0       0           
+3lZ_08_1b4j       0      0       0       0           
+3lZ_08_2b3j       0      0       0       0           
+3lZ_08_2b4j       0      0       0       0           
+3l_03_3leptons    10     10      0.001   2222.4      
+3l_04_bj>1        6      6       0.0006  1333.44     
+3l_05_pt>20       3      3       0.0003  666.72      
+3l_06_charge      3      3       0.0003  666.72      
+3lnoZ_07_noZ      3      3       0.0003  666.72      
+3lnoZ_08_jets     1      1       0.0001  222.24      
+4l_03_4leptons    1      1       0.0001  222.24      
+4l_04_charge      1      1       0.0001  222.24      
+4l_05_OSSFZ       1      1       0.0001  222.24      
+4l_06_DF1b        0      0       0       0           
+4l_06_DF2b        0      0       0       0           
+4l_06a_SF1b       0      0       0       0           
+4l_06a_SF2b       0      0       0       0           
+4l_06b_SF1b       0      0       0       0           
+4l_06b_SF2b       0      0       0       0           
+CR-3lWZ           0      0       0       0           
+CR-4lZZ           0      0       0       0           
+muSS_03_SSmuons   15     15      0.0015  3333.6      
+muSS_04_bjets>0   4      4       0.0004  888.96      
+muSS_05_3lepveto  3      3       0.0003  666.72      
+muSS_06_pT>25     1      1       0.0001  222.24      
+muSS_07_met>40    1      1       0.0001  222.24      
+muSS_08_ht>240    1      1       0.0001  222.24      

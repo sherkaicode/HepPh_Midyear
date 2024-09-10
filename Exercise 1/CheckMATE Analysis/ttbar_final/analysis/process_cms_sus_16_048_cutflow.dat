@@ -1,0 +1,27 @@
+# cms_sus_16_048
+# two soft leptons, jets, missingET
+# sqrt(s)=13TeV
+# int(L)=35.9 fb^-1 and 33.2 fb^-1
+
+Inputfile:
+XSect:           694500 fb
+ Error:          3628 fb
+MCEvents:        10000
+ SumOfWeights:   10000
+ SumOfWeights2:  10000
+ NormEvents:     2.49326e+07
+
+Cut               Sum_W  Sum_W2  Acc     N_Norm       
+CR00_all          10000  10000   1       2.49326e+07  
+CR01_2SOLep       392    392     0.0392  977356       
+CR02_twoLepPT     69     69      0.0069  172035       
+CR03_jets         67     67      0.0067  167048       
+CR04_nobjets      18     18      0.0018  44878.6      
+CR05_mll          18     18      0.0018  44878.6      
+CR06_ptll         18     18      0.0018  44878.6      
+CR07_mET          2      2       0.0002  4986.51      
+CR08_mET_no_muon  2      2       0.0002  4986.51      
+CR09_mET_ht       1      1       0.0001  2493.26      
+CR10_ht           1      1       0.0001  2493.26      
+CR11_mll_low      1      1       0.0001  2493.26      
+CR12_mtata        1      1       0.0001  2493.26      

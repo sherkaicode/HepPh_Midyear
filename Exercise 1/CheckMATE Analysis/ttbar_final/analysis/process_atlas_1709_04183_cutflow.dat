@@ -1,0 +1,52 @@
+# search for stop/gluino pair production
+# at least 4 jets, no leptons and MET
+# 36/fb
+
+Inputfile:
+XSect:           694500 fb
+ Error:          3628 fb
+MCEvents:        10000
+ SumOfWeights:   10000
+ SumOfWeights2:  10000
+ NormEvents:     2.50714e+07
+
+Cut                  Sum_W  Sum_W2  Acc     N_Norm       
+00_all               10000  10000   1       2.50714e+07  
+00_deriv_skim        8137   8137    0.8137  2.04006e+07  
+00_jet_clean         7932   7932    0.7932  1.98867e+07  
+01_lepton_veto       5668   5668    0.5668  1.42105e+07  
+02_4jets             5114   5114    0.5114  1.28215e+07  
+03_METtrack>30       3092   3092    0.3092  7.75209e+06  
+04_btag              2708   2708    0.2708  6.78935e+06  
+05_MET>250           13     13      0.0013  32592.9      
+06_dPhi(METs)        13     13      0.0013  32592.9      
+07_dPhi(jet,MET)     10     10      0.001   25071.5      
+08a_jets_pT          9      9       0.0009  22564.3      
+08b_jets_pT          7      7       0.0007  17550        
+SRA-T0_09_2Ljets     7      7       0.0007  17550        
+SRA-T0_10_m_0Lj>120  7      7       0.0007  17550        
+SRA-T0_11_m_1Lj      5      5       0.0005  12535.7      
+SRA-TT_09_2Ljets     7      7       0.0007  17550        
+SRA-TT_10_m_0Lj>120  7      7       0.0007  17550        
+SRA-TW_09_2Ljets     7      7       0.0007  17550        
+SRA-TW_10_m_0Lj>120  7      7       0.0007  17550        
+SRA-TW_11_m_1Lj      2      2       0.0002  5014.29      
+SRB-T0_09_2Ljets     7      7       0.0007  17550        
+SRB-T0_10_m_0Lj>120  7      7       0.0007  17550        
+SRB-T0_11a_m_1Lj     5      5       0.0005  12535.7      
+SRB-T0_11b_m_1Lj     5      5       0.0005  12535.7      
+SRB-T0_12_DRbb       3      3       0.0003  7521.44      
+SRB-T0_13_mTbmax     2      2       0.0002  5014.29      
+SRB-TT_09_2Ljets     7      7       0.0007  17550        
+SRB-TT_10_m_0Lj>120  7      7       0.0007  17550        
+SRB-TT_11a_m_1Lj     7      7       0.0007  17550        
+SRB-TW_09_2Ljets     7      7       0.0007  17550        
+SRB-TW_10_m_0Lj>120  7      7       0.0007  17550        
+SRB-TW_11a_m_1Lj     7      7       0.0007  17550        
+SRB-TW_11b_m_1Lj     2      2       0.0002  5014.29      
+SRB-TW_12_DRbb       2      2       0.0002  5014.29      
+SRB-TW_13_mTbmax     1      1       0.0001  2507.14      
+SRD-high_09_njet>4   7      7       0.0007  17550        
+SRD-high_10_pTj1     2      2       0.0002  5014.29      
+SRD-low_09_njet>4    7      7       0.0007  17550        
+SRD-low_10_pTj1      2      2       0.0002  5014.29      

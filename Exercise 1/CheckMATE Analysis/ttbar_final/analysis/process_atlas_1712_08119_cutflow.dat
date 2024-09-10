@@ -1,0 +1,22 @@
+# electroweakinos search with soft leptons
+
+Inputfile:
+XSect:           694500 fb
+ Error:          3628 fb
+MCEvents:        10000
+ SumOfWeights:   10000
+ SumOfWeights2:  10000
+ NormEvents:     2.50714e+07
+
+Cut                   Sum_W  Sum_W2  Acc     N_Norm       
+00_all                10000  10000   1       2.50714e+07  
+01_MET>200            99     99      0.0099  248207       
+02_2_base_leptons     17     17      0.0017  42621.5      
+03_2_signal_leptons   7      7       0.0007  17550        
+04_same_flav          4      4       0.0004  10028.6      
+05_opposite_charge    4      4       0.0004  10028.6      
+06_lep_pt>5           4      4       0.0004  10028.6      
+07_bveto              1      1       0.0001  2507.14      
+08_ptjet>100          1      1       0.0001  2507.14      
+09_dPhi(jet1,MET)>2   1      1       0.0001  2507.14      
+10_dPhi(jet,MET)>0.4  1      1       0.0001  2507.14      

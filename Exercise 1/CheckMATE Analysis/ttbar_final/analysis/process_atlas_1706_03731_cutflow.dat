@@ -1,0 +1,43 @@
+# same-sign or 3 leptons RPC and RPV SUSY
+
+Inputfile:
+XSect:           694500 fb
+ Error:          3628 fb
+MCEvents:        10000
+ SumOfWeights:   10000
+ SumOfWeights2:  10000
+ NormEvents:     2.50714e+07
+
+Cut                     Sum_W  Sum_W2  Acc     N_Norm       
+00_all                  10000  10000   1       2.50714e+07  
+Rpc2L0bH_01_leptons     2      2       0.0002  5014.29      
+Rpc2L0bH_02_bjets       1      1       0.0001  2507.14      
+Rpc2L0bS_01_leptons     2      2       0.0002  5014.29      
+Rpc2L0bS_02_bjets       1      1       0.0001  2507.14      
+Rpc2L1bH_01_leptons     2      2       0.0002  5014.29      
+Rpc2L1bH_02_bjets       1      1       0.0001  2507.14      
+Rpc2L1bS_01_leptons     2      2       0.0002  5014.29      
+Rpc2L1bS_02_bjets       1      1       0.0001  2507.14      
+Rpc2L2bH_01_leptons     2      2       0.0002  5014.29      
+Rpc2L2bS_01_leptons     2      2       0.0002  5014.29      
+Rpc2Lsoft1b_01_leptons  3      3       0.0003  7521.44      
+Rpc2Lsoft1b_02_bjets    2      2       0.0002  5014.29      
+Rpc2Lsoft2b_01_leptons  3      3       0.0003  7521.44      
+Rpc3L0bH_01_leptons     2      2       0.0002  5014.29      
+Rpc3L0bH_02_bjets       1      1       0.0001  2507.14      
+Rpc3L0bS_01_leptons     2      2       0.0002  5014.29      
+Rpc3L0bS_02_bjets       1      1       0.0001  2507.14      
+Rpc3L1bH_01_leptons     2      2       0.0002  5014.29      
+Rpc3L1bH_02_bjets       1      1       0.0001  2507.14      
+Rpc3L1bS_01_leptons     2      2       0.0002  5014.29      
+Rpc3L1bS_02_bjets       1      1       0.0001  2507.14      
+Rpv2L0b_01_leptons      2      2       0.0002  5014.29      
+Rpv2L0b_02_bjets        1      1       0.0001  2507.14      
+Rpv2L1bH_01_leptons     2      2       0.0002  5014.29      
+Rpv2L1bH_02_bjets       1      1       0.0001  2507.14      
+Rpv2L1bM_01_leptons     1      1       0.0001  2507.14      
+Rpv2L1bM_02_bjets       1      1       0.0001  2507.14      
+Rpv2L1bS_01_leptons     1      1       0.0001  2507.14      
+Rpv2L1bS_02_bjets       1      1       0.0001  2507.14      
+Rpv2L2bH_01_leptons     2      2       0.0002  5014.29      
+Rpv2L2bS_01_leptons     1      1       0.0001  2507.14      

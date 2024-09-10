@@ -1,0 +1,24 @@
+# search for stops and gluinos; at least 3 b-jets 0-1 leptons
+
+Inputfile:
+XSect:           694500 fb
+ Error:          3628 fb
+MCEvents:        10000
+ SumOfWeights:   10000
+ SumOfWeights2:  10000
+ NormEvents:     9.65355e+07
+
+Cut                  Sum_W  Sum_W2  Acc     N_Norm       
+00_all               10000  10000   1       9.65355e+07  
+00_preselection      8      8       0.0008  77228.4      
+01_1signalLep        2      2       0.0002  19307.1      
+01_ObaseLep          6      6       0.0006  57921.3      
+02_phimin            6      6       0.0006  57921.3      
+03_mTb>130           3      3       0.0003  28960.7      
+SR-Gbb-B_04_jets     3      3       0.0003  28960.7      
+SR-Gbb-C_04_jets     3      3       0.0003  28960.7      
+SR-Gbb-M_04_jets     3      3       0.0003  28960.7      
+SR-Gtb-B_04_jets     3      3       0.0003  28960.7      
+SR-Gtb-B_05_bjets    3      3       0.0003  28960.7      
+SR-Gtt-0L-B_03_jets  3      3       0.0003  28960.7      
+SR-Gtt-1L-B_02_jets  2      2       0.0002  19307.1      

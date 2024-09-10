@@ -1,0 +1,22 @@
+# monophoton dark matter search
+# photon + MET channel
+
+Inputfile:
+XSect:           694500 fb
+ Error:          3628 fb
+MCEvents:        10000
+ SumOfWeights:   10000
+ SumOfWeights2:  10000
+ NormEvents:     2.50714e+07
+
+Cut                  Sum_W  Sum_W2  Acc     N_Norm       
+00_all               10000  10000   1       2.50714e+07  
+01_trigger           4      4       0.0004  10028.6      
+02_MET>150           2      2       0.0002  5014.29      
+03_pT>150            1      1       0.0001  2507.14      
+04_leadingTight      1      1       0.0001  2507.14      
+05_isolated          1      1       0.0001  2507.14      
+06_dphimet>0.4       1      1       0.0001  2507.14      
+07_MET/sqrt(ET)>8.5  1      1       0.0001  2507.14      
+08_0-1jet            0      0       0       0            
+09_leptonveto        0      0       0       0            

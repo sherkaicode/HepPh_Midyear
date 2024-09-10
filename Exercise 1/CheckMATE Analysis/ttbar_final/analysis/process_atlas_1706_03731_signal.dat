@@ -1,0 +1,30 @@
+# same-sign or 3 leptons RPC and RPV SUSY
+
+Inputfile:
+XSect:           694500 fb
+ Error:          3628 fb
+MCEvents:        10000
+ SumOfWeights:   10000
+ SumOfWeights2:  10000
+ NormEvents:     2.50714e+07
+
+SR           Sum_W  Sum_W2  Acc  N_Norm  
+Rpc2L0bH     0      0       0    0       
+Rpc2L0bS     0      0       0    0       
+Rpc2L1bH     0      0       0    0       
+Rpc2L1bS     0      0       0    0       
+Rpc2L2bH     0      0       0    0       
+Rpc2L2bS     0      0       0    0       
+Rpc2Lsoft1b  0      0       0    0       
+Rpc2Lsoft2b  0      0       0    0       
+Rpc3L0bH     0      0       0    0       
+Rpc3L0bS     0      0       0    0       
+Rpc3L1bH     0      0       0    0       
+Rpc3L1bS     0      0       0    0       
+Rpc3LSS1b    0      0       0    0       
+Rpv2L0b      0      0       0    0       
+Rpv2L1bH     0      0       0    0       
+Rpv2L1bM     0      0       0    0       
+Rpv2L1bS     0      0       0    0       
+Rpv2L2bH     0      0       0    0       
+Rpv2L2bS     0      0       0    0       

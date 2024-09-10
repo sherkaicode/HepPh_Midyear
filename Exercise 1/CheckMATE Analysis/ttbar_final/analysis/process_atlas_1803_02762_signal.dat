@@ -1,0 +1,33 @@
+# ATLAS
+# EW SUSY searches
+# 2leptons, 2lep+jets+etmiss, 3lep
+
+Inputfile:
+XSect:           694500 fb
+ Error:          3628 fb
+MCEvents:        10000
+ SumOfWeights:   10000
+ SumOfWeights2:  10000
+ NormEvents:     2.50714e+07
+
+SR               Sum_W  Sum_W2  Acc     N_Norm   
+S-2l0j-DF-100    0      0       0       0        
+S-2l0j-DF-150    0      0       0       0        
+S-2l0j-DF-200    0      0       0       0        
+S-2l0j-DF-300    0      0       0       0        
+S-2l0j-SF-loose  0      0       0       0        
+S-2l0j-SF-tight  0      0       0       0        
+S-2lj-SR2-high   0      0       0       0        
+S-2lj-SR2-int    0      0       0       0        
+S-2lj-SR2-low    0      0       0       0        
+S-3l-WZ-0Ja      1      1       0.0001  2507.14  
+S-3l-WZ-0Jb      0      0       0       0        
+S-3l-WZ-1Ja      0      0       0       0        
+S-3l-WZ-1Jb      0      0       0       0        
+S-3l-WZ-1Jc      0      0       0       0        
+S-3l-WZ-OJc      0      0       0       0        
+S-3l-slep-a      0      0       0       0        
+S-3l-slep-b      0      0       0       0        
+S-3l-slep-c      0      0       0       0        
+S-3l-slep-d      0      0       0       0        
+S-3l-slep-e      0      0       0       0        
