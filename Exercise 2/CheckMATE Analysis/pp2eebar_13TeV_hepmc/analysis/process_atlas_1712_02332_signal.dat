@@ -1,0 +1,38 @@
+# search for squarks and gluinos
+# 0 leptons, 2-6 jets, MET
+# only Meff, no jigsaw
+# Moriond 2017, 40/fb
+
+Inputfile:
+XSect:           844100 fb
+ Error:          1900 fb
+MCEvents:        10000
+ SumOfWeights:   8.4415e+06
+ SumOfWeights2:  7.12589e+09
+ NormEvents:     3.0472e+07
+
+SR        Sum_W  Sum_W2  Acc  N_Norm  
+2j-1200   0      0       0    0       
+2j-1600   0      0       0    0       
+2j-2000   0      0       0    0       
+2j-2100   0      0       0    0       
+2j-2400   0      0       0    0       
+2j-2800   0      0       0    0       
+2j-3600   0      0       0    0       
+2j-B1600  0      0       0    0       
+2j-B2400  0      0       0    0       
+3j-1300   0      0       0    0       
+4j-1000   0      0       0    0       
+4j-1400   0      0       0    0       
+4j-1800   0      0       0    0       
+4j-2200   0      0       0    0       
+4j-2600   0      0       0    0       
+4j-3000   0      0       0    0       
+5j-1600   0      0       0    0       
+5j-1700   0      0       0    0       
+5j-2000   0      0       0    0       
+5j-2600   0      0       0    0       
+6j-1200   0      0       0    0       
+6j-1800   0      0       0    0       
+6j-2200   0      0       0    0       
+6j-2600   0      0       0    0       

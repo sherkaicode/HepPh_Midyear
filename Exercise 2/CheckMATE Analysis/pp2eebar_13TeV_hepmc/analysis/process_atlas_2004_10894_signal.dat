@@ -1,0 +1,23 @@
+# EWino search in Higgs (diphoton) and met
+
+Inputfile:
+XSect:           844100 fb
+ Error:          1900 fb
+MCEvents:        10000
+ SumOfWeights:   8.4415e+06
+ SumOfWeights2:  7.12589e+09
+ NormEvents:     1.1733e+08
+
+SR     Sum_W  Sum_W2  Acc  N_Norm  
+Cat1   0      0       0    0       
+Cat10  0      0       0    0       
+Cat11  0      0       0    0       
+Cat12  0      0       0    0       
+Cat2   0      0       0    0       
+Cat3   0      0       0    0       
+Cat4   0      0       0    0       
+Cat5   0      0       0    0       
+Cat6   0      0       0    0       
+Cat7   0      0       0    0       
+Cat8   0      0       0    0       
+Cat9   0      0       0    0       

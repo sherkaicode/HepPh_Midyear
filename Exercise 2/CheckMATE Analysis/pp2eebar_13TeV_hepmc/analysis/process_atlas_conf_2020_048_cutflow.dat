@@ -1,0 +1,15 @@
+# dark matter monojet
+
+Inputfile:
+XSect:           844100 fb
+ Error:          1900 fb
+MCEvents:        10000
+ SumOfWeights:   8.4415e+06
+ SumOfWeights2:  7.12589e+09
+ NormEvents:     1.1733e+08
+
+Cut         Sum_W       Sum_W2       Acc     N_Norm      
+00_all      8.4415e+06  7.12589e+09  1       1.1733e+08  
+01_trigger  844.15      712589       0.0001  11733       
+02_1jet     844.15      712589       0.0001  11733       
+03_4jets    844.15      712589       0.0001  11733       

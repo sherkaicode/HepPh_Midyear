@@ -1,0 +1,54 @@
+# A search for supersymmetry in events containing a leptonically decaying Z boson, jets and missing transverse momentum in sqrt(s)=13TeV p p collisions with the ATLAS detector
+
+Inputfile:
+XSect:           844100 fb
+ Error:          1900 fb
+MCEvents:        10000
+ SumOfWeights:   8.4415e+06
+ SumOfWeights2:  7.12589e+09
+ NormEvents:     2.70112e+06
+
+Cut                                     Sum_W        Sum_W2       Acc     N_Norm       
+CR00_noCuts                             8.4415e+06   7.12589e+09  1       2.70112e+06  
+CR01_leptonTriggerRequirement           0            0            0       0            
+CR02_rejectEventsWithBadJets            0            0            0       0            
+CR03_rejectEventsWithBadMuons           0            0            0       0            
+CR04_primaryVertexGE4tracks             0            0            0       0            
+CR05_vetoEventsWithCosmicMuons          0            0            0       0            
+CR06_GE2leptons                         3.79277e+06  3.20166e+09  0.4493  1.21361e+06  
+CR07_fakeMissET                         0            0            0       0            
+CRee08_leptonIsolationTriggerMatching   0            0            0       0            
+CRee09_leptonFlavour                    3.79277e+06  3.20166e+09  0.4493  1.21361e+06  
+CRee10_promptLeptons                    1.05603e+06  8.91449e+08  0.1251  337910       
+CRee11_oppositeChargeLeptons            1.05603e+06  8.91449e+08  0.1251  337910       
+CRee12_GT1jet                           70908.6      5.98575e+07  0.0084  22689.4      
+CRee13_electronCrackVeto                0            0            0       0            
+CRee14_mllGT15                          70908.6      5.98575e+07  0.0084  22689.4      
+CRee15_dPhi(leadingjet,missET)GT0.4     60778.8      5.13064e+07  0.0072  19448.1      
+CRee16_dPhi(subleadingjet,missET)GT0.4  56558.1      4.77435e+07  0.0067  18097.5      
+CRee17_mllIn(81,101)                    50649        4.27554e+07  0.006   16206.7      
+CRee18_HTGT600                          0            0            0       0            
+CRee19_missETGT225                      0            0            0       0            
+CRmm08_leptonIsolationTriggerMatching   0            0            0       0            
+CRmm09_leptonFlavour                    0            0            0       0            
+CRmm10_promptLeptons                    0            0            0       0            
+CRmm11_oppositeChargeLeptons            0            0            0       0            
+CRmm12_GT1jet                           0            0            0       0            
+CRmm13_electronCrackVeto                0            0            0       0            
+CRmm14_mllGT15                          0            0            0       0            
+CRmm15_dPhi(leadingjet,missET)GT0.4     0            0            0       0            
+CRmm16_dPhi(subleadingjet,missET)GT0.4  0            0            0       0            
+CRmm17_mllIn(81,101)                    0            0            0       0            
+CRmm18_HTGT600                          0            0            0       0            
+CRmm19_missETGT225                      0            0            0       0            
+Jet_hist_10                             0            0            0       0            
+Jet_hist_11                             0            0            0       0            
+Jet_hist_2                              0            0            0       0            
+Jet_hist_3                              0            0            0       0            
+Jet_hist_4                              0            0            0       0            
+Jet_hist_5                              0            0            0       0            
+Jet_hist_6                              0            0            0       0            
+Jet_hist_7                              0            0            0       0            
+Jet_hist_8                              0            0            0       0            
+Jet_hist_9                              0            0            0       0            
+Jet_hist_more                           0            0            0       0            

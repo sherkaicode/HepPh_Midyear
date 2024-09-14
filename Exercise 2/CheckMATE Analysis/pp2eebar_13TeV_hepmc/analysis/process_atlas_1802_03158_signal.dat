@@ -1,0 +1,18 @@
+# search for GMSB with photons
+
+Inputfile:
+XSect:           844100 fb
+ Error:          1900 fb
+MCEvents:        10000
+ SumOfWeights:   8.4415e+06
+ SumOfWeights2:  7.12589e+09
+ NormEvents:     3.0472e+07
+
+SR        Sum_W  Sum_W2  Acc  N_Norm  
+SRaaSH    0      0       0    0       
+SRaaSL    0      0       0    0       
+SRaaWH    0      0       0    0       
+SRaaWL    0      0       0    0       
+SRajH     0      0       0    0       
+SRajL     0      0       0    0       
+SRajL200  0      0       0    0       

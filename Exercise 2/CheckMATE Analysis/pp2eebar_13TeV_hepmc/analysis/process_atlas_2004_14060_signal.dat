@@ -1,0 +1,20 @@
+# stops, leptoquarks, 0 lepton
+
+Inputfile:
+XSect:           844100 fb
+ Error:          1900 fb
+MCEvents:        10000
+ SumOfWeights:   8.4415e+06
+ SumOfWeights2:  7.12589e+09
+ NormEvents:     1.1733e+08
+
+SR      Sum_W  Sum_W2  Acc  N_Norm  
+SRA-T0  0      0       0    0       
+SRA-TT  0      0       0    0       
+SRA-TW  0      0       0    0       
+SRB-T0  0      0       0    0       
+SRB-TT  0      0       0    0       
+SRB-TW  0      0       0    0       
+SRD0    0      0       0    0       
+SRD1    0      0       0    0       
+SRD2    0      0       0    0       

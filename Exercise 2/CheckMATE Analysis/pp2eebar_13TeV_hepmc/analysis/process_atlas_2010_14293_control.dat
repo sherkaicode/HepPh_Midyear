@@ -1,0 +1,111 @@
+# search for squarks and gluinos in MET_jet final states
+
+@Inputfile:       
+@XSect:           844100 fb
+@ Error:          1900 fb
+@MCEvents:        10000
+@ SumOfWeights:   8.4415e+06
+@ SumOfWeights2:  7.12589e+09
+@ NormEvents:     1.1733e+08
+
+CR  Sum_W  Sum_W2  Acc  N_Norm
+MB-C-CRQ_2_1600_cuts  0  0  0  0
+MB-C-CRQ_2_2200_cuts  0  0  0  0
+MB-C-CRQ_2_2800_cuts  0  0  0  0
+MB-C-CRQ_4_1600_cuts  0  0  0  0
+MB-C-CRQ_4_2200_cuts  0  0  0  0
+MB-C-CRQ_4_2800_cuts  0  0  0  0
+MB-C-CRQ_5_1600_cuts  0  0  0  0
+MB-C-CRQ_5_2200_cuts  0  0  0  0
+MB-C-CRQ_5_2800_cuts  0  0  0  0
+MB-C-CRT_2_1600_cuts  0  0  0  0
+MB-C-CRT_2_2200_cuts  0  0  0  0
+MB-C-CRT_2_2800_cuts  0  0  0  0
+MB-C-CRT_4_1600_cuts  0  0  0  0
+MB-C-CRT_4_2200_cuts  0  0  0  0
+MB-C-CRT_4_2800_cuts  0  0  0  0
+MB-C-CRT_5_1600_cuts  0  0  0  0
+MB-C-CRT_5_2200_cuts  0  0  0  0
+MB-C-CRT_5_2800_cuts  0  0  0  0
+MB-C-CRW_2_1600_cuts  0  0  0  0
+MB-C-CRW_2_2200_cuts  0  0  0  0
+MB-C-CRW_2_2800_cuts  0  0  0  0
+MB-C-CRW_4_1600_cuts  0  0  0  0
+MB-C-CRW_4_2200_cuts  0  0  0  0
+MB-C-CRW_4_2800_cuts  0  0  0  0
+MB-C-CRW_5_1600_cuts  0  0  0  0
+MB-C-CRW_5_2200_cuts  0  0  0  0
+MB-C-CRW_5_2800_cuts  0  0  0  0
+MB-C-CRY_2_1600_cuts  0  0  0  0
+MB-C-CRY_2_2200_cuts  0  0  0  0
+MB-C-CRY_2_2800_cuts  0  0  0  0
+MB-C-CRY_4_1600_cuts  0  0  0  0
+MB-C-CRY_4_2200_cuts  0  0  0  0
+MB-C-CRY_4_2800_cuts  0  0  0  0
+MB-C-CRY_5_1600_cuts  0  0  0  0
+MB-C-CRY_5_2200_cuts  0  0  0  0
+MB-C-CRY_5_2800_cuts  0  0  0  0
+MB-GGd-CRQ_4_1000_cuts  0  0  0  0
+MB-GGd-CRQ_4_1600_cuts  0  0  0  0
+MB-GGd-CRQ_4_2200_cuts  0  0  0  0
+MB-GGd-CRQ_4_2800_cuts  0  0  0  0
+MB-GGd-CRQ_4_3400_cuts  0  0  0  0
+MB-GGd-CRQ_4_4000_cuts  0  0  0  0
+MB-GGd-CRT_4_1000_cuts  0  0  0  0
+MB-GGd-CRT_4_1600_cuts  0  0  0  0
+MB-GGd-CRT_4_2200_cuts  0  0  0  0
+MB-GGd-CRT_4_2800_cuts  0  0  0  0
+MB-GGd-CRT_4_3400_cuts  0  0  0  0
+MB-GGd-CRT_4_4000_cuts  0  0  0  0
+MB-GGd-CRW_4_1000_cuts  0  0  0  0
+MB-GGd-CRW_4_1600_cuts  0  0  0  0
+MB-GGd-CRW_4_2200_cuts  0  0  0  0
+MB-GGd-CRW_4_2800_cuts  0  0  0  0
+MB-GGd-CRW_4_3400_cuts  0  0  0  0
+MB-GGd-CRW_4_4000_cuts  0  0  0  0
+MB-GGd-CRY_4_1000_cuts  0  0  0  0
+MB-GGd-CRY_4_1600_cuts  0  0  0  0
+MB-GGd-CRY_4_2200_cuts  0  0  0  0
+MB-GGd-CRY_4_2800_cuts  0  0  0  0
+MB-GGd-CRY_4_3400_cuts  0  0  0  0
+MB-GGd-CRY_4_4000_cuts  0  0  0  0
+MB-SSd-CRQ_2_1000_cuts  0  0  0  0
+MB-SSd-CRQ_2_1600_cuts  0  0  0  0
+MB-SSd-CRQ_2_2200_cuts  0  0  0  0
+MB-SSd-CRQ_2_2800_cuts  0  0  0  0
+MB-SSd-CRQ_2_3400_cuts  0  0  0  0
+MB-SSd-CRQ_2_4000_cuts  0  0  0  0
+MB-SSd-CRQ_4_1000_cuts  0  0  0  0
+MB-SSd-CRQ_4_1600_cuts  0  0  0  0
+MB-SSd-CRQ_4_2200_cuts  0  0  0  0
+MB-SSd-CRQ_4_2800_cuts  0  0  0  0
+MB-SSd-CRT_2_1000_cuts  0  0  0  0
+MB-SSd-CRT_2_1600_cuts  0  0  0  0
+MB-SSd-CRT_2_2200_cuts  0  0  0  0
+MB-SSd-CRT_2_2800_cuts  0  0  0  0
+MB-SSd-CRT_2_3400_cuts  0  0  0  0
+MB-SSd-CRT_2_4000_cuts  0  0  0  0
+MB-SSd-CRT_4_1000_cuts  0  0  0  0
+MB-SSd-CRT_4_1600_cuts  0  0  0  0
+MB-SSd-CRT_4_2200_cuts  0  0  0  0
+MB-SSd-CRT_4_2800_cuts  0  0  0  0
+MB-SSd-CRW_2_1000_cuts  0  0  0  0
+MB-SSd-CRW_2_1600_cuts  0  0  0  0
+MB-SSd-CRW_2_2200_cuts  0  0  0  0
+MB-SSd-CRW_2_2800_cuts  0  0  0  0
+MB-SSd-CRW_2_3400_cuts  0  0  0  0
+MB-SSd-CRW_2_4000_cuts  0  0  0  0
+MB-SSd-CRW_4_1000_cuts  0  0  0  0
+MB-SSd-CRW_4_1600_cuts  0  0  0  0
+MB-SSd-CRW_4_2200_cuts  0  0  0  0
+MB-SSd-CRW_4_2800_cuts  0  0  0  0
+MB-SSd-CRY_2_1000_cuts  0  0  0  0
+MB-SSd-CRY_2_1600_cuts  0  0  0  0
+MB-SSd-CRY_2_2200_cuts  0  0  0  0
+MB-SSd-CRY_2_2800_cuts  0  0  0  0
+MB-SSd-CRY_2_3400_cuts  0  0  0  0
+MB-SSd-CRY_2_4000_cuts  0  0  0  0
+MB-SSd-CRY_4_1000_cuts  0  0  0  0
+MB-SSd-CRY_4_1600_cuts  0  0  0  0
+MB-SSd-CRY_4_2200_cuts  0  0  0  0
+MB-SSd-CRY_4_2800_cuts  0  0  0  0

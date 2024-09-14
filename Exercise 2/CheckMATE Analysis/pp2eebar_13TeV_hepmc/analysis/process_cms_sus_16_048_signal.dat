@@ -1,0 +1,35 @@
+# cms_sus_16_048
+# two soft leptons, jets, missingET
+# sqrt(s)=13TeV
+# int(L)=35.9 fb^-1 and 33.2 fb^-1
+
+Inputfile:
+XSect:           844100 fb
+ Error:          1900 fb
+MCEvents:        10000
+ SumOfWeights:   8.4415e+06
+ SumOfWeights2:  7.12589e+09
+ NormEvents:     3.03032e+07
+
+SR                        Sum_W  Sum_W2  Acc  N_Norm  
+SR1_weakino_1low_mll_1    0      0       0    0       
+SR1_weakino_1low_mll_2    0      0       0    0       
+SR1_weakino_1low_mll_3    0      0       0    0       
+SR1_weakino_1low_mll_4    0      0       0    0       
+SR1_weakino_2media_mll_1  0      0       0    0       
+SR1_weakino_2media_mll_2  0      0       0    0       
+SR1_weakino_2media_mll_3  0      0       0    0       
+SR1_weakino_2media_mll_4  0      0       0    0       
+SR1_weakino_3high_mll_1   0      0       0    0       
+SR1_weakino_3high_mll_2   0      0       0    0       
+SR1_weakino_3high_mll_3   0      0       0    0       
+SR1_weakino_3high_mll_4   0      0       0    0       
+SR2_stop_1low_pt_1        0      0       0    0       
+SR2_stop_1low_pt_2        0      0       0    0       
+SR2_stop_1low_pt_3        0      0       0    0       
+SR2_stop_2media_pt_1      0      0       0    0       
+SR2_stop_2media_pt_2      0      0       0    0       
+SR2_stop_2media_pt_3      0      0       0    0       
+SR2_stop_3high_pt_1       0      0       0    0       
+SR2_stop_3high_pt_2       0      0       0    0       
+SR2_stop_3high_pt_3       0      0       0    0       

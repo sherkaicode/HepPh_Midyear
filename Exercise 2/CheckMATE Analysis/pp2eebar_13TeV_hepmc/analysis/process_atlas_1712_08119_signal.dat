@@ -1,0 +1,50 @@
+# electroweakinos search with soft leptons
+
+Inputfile:
+XSect:           844100 fb
+ Error:          1900 fb
+MCEvents:        10000
+ SumOfWeights:   8.4415e+06
+ SumOfWeights2:  7.12589e+09
+ NormEvents:     3.0472e+07
+
+SR           Sum_W  Sum_W2  Acc  N_Norm  
+SRE-MLL-03   0      0       0    0       
+SRE-MLL-05   0      0       0    0       
+SRE-MLL-10   0      0       0    0       
+SRE-MLL-20   0      0       0    0       
+SRE-MLL-30   0      0       0    0       
+SRE-MLL-40   0      0       0    0       
+SRE-MLL-60   0      0       0    0       
+SRE-MT2-102  0      0       0    0       
+SRE-MT2-105  0      0       0    0       
+SRE-MT2-110  0      0       0    0       
+SRE-MT2-120  0      0       0    0       
+SRE-MT2-130  0      0       0    0       
+SRE-MT2-999  0      0       0    0       
+SRI-MLL-03   0      0       0    0       
+SRI-MLL-05   0      0       0    0       
+SRI-MLL-10   0      0       0    0       
+SRI-MLL-20   0      0       0    0       
+SRI-MLL-30   0      0       0    0       
+SRI-MLL-40   0      0       0    0       
+SRI-MLL-60   0      0       0    0       
+SRI-MT2-102  0      0       0    0       
+SRI-MT2-105  0      0       0    0       
+SRI-MT2-110  0      0       0    0       
+SRI-MT2-120  0      0       0    0       
+SRI-MT2-130  0      0       0    0       
+SRI-MT2-999  0      0       0    0       
+SRM-MLL-03   0      0       0    0       
+SRM-MLL-05   0      0       0    0       
+SRM-MLL-10   0      0       0    0       
+SRM-MLL-20   0      0       0    0       
+SRM-MLL-30   0      0       0    0       
+SRM-MLL-40   0      0       0    0       
+SRM-MLL-60   0      0       0    0       
+SRM-MT2-102  0      0       0    0       
+SRM-MT2-105  0      0       0    0       
+SRM-MT2-110  0      0       0    0       
+SRM-MT2-120  0      0       0    0       
+SRM-MT2-130  0      0       0    0       
+SRM-MT2-999  0      0       0    0       

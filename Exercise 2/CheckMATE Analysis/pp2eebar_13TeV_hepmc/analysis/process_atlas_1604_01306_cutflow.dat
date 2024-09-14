@@ -1,0 +1,20 @@
+# photon+MET search 13 TeV
+
+Inputfile:
+XSect:           844100 fb
+ Error:          1900 fb
+MCEvents:        10000
+ SumOfWeights:   8.4415e+06
+ SumOfWeights2:  7.12589e+09
+ NormEvents:     2.70112e+06
+
+Cut              Sum_W       Sum_W2       Acc  N_Norm       
+00_all           8.4415e+06  7.12589e+09  1    2.70112e+06  
+01_trigger       0           0            0    0            
+02_MET>150       0           0            0    0            
+03_pT>150        0           0            0    0            
+04_leadingTight  0           0            0    0            
+05_isolated      0           0            0    0            
+06_dphimet>0.4   0           0            0    0            
+07_0-1jet        0           0            0    0            
+08_leptonveto    0           0            0    0            

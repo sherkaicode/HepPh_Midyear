@@ -1,0 +1,13 @@
+# search for squarks and gluinos with same-sign leptons
+
+Inputfile:
+XSect:           844100 fb
+ Error:          1900 fb
+MCEvents:        10000
+ SumOfWeights:   8.4415e+06
+ SumOfWeights2:  7.12589e+09
+ NormEvents:     1.1733e+08
+
+Cut         Sum_W        Sum_W2       Acc     N_Norm       
+00_all      8.4415e+06   7.12589e+09  1       1.1733e+08   
+01_trigger  2.97647e+06  2.51259e+09  0.3526  4.13705e+07  

@@ -1,0 +1,140 @@
+# CMS
+# 13 TeV, lumi 2.2 fb^-1
+# Search for new physics in final states with two
+# opposite-sign same-flavor leptons, jets and MET in pp
+# collisions at sqrt(s) = 13 TeV
+
+Inputfile:
+XSect:           844100 fb
+ Error:          1900 fb
+MCEvents:        10000
+ SumOfWeights:   8.4415e+06
+ SumOfWeights2:  7.12589e+09
+ NormEvents:     1.85702e+06
+
+Cut                       Sum_W       Sum_W2       Acc     N_Norm       
+0.dileptonEvents          8.4415e+06  7.12589e+09  1       1.85702e+06  
+1.dileptonPT_cen_b0       34610.2     2.92162e+07  0.0041  7613.78      
+1.dileptonPT_cen_b1       1688.3      1.42518e+06  0.0002  371.404      
+1.dileptonPT_for_b0       7597.35     6.4133e+06   0.0009  1671.32      
+1.dileptonPT_for_b1       1688.3      1.42518e+06  0.0002  371.404      
+a.vlow_a.mass_cen_b0      844.15      712589       0.0001  185.702      
+a.vlow_a.mass_cen_b1      0           0            0       0            
+a.vlow_a.mass_for_b0      0           0            0       0            
+a.vlow_a.mass_for_b1      0           0            0       0            
+a.vlow_b.jet2_cen_b0      844.15      712589       0.0001  185.702      
+a.vlow_b.jet2_cen_b1      0           0            0       0            
+a.vlow_b.jet2_for_b0      0           0            0       0            
+a.vlow_b.jet2_for_b1      0           0            0       0            
+a.vlow_b.jet3_cen_b0      0           0            0       0            
+a.vlow_b.jet3_cen_b1      0           0            0       0            
+a.vlow_b.jet3_for_b0      0           0            0       0            
+a.vlow_b.jet3_for_b1      0           0            0       0            
+a.vlow_c.MET100_cen_b0    0           0            0       0            
+a.vlow_c.MET100_cen_b1    0           0            0       0            
+a.vlow_c.MET100_for_b0    0           0            0       0            
+a.vlow_c.MET100_for_b1    0           0            0       0            
+a.vlow_c.MET150_cen_b0    0           0            0       0            
+a.vlow_c.MET150_cen_b1    0           0            0       0            
+a.vlow_c.MET150_for_b0    0           0            0       0            
+a.vlow_c.MET150_for_b1    0           0            0       0            
+a.vlow_d.signal_cen_b0    0           0            0       0            
+a.vlow_d.signal_cen_b1    0           0            0       0            
+a.vlow_d.signal_for_b0    0           0            0       0            
+a.vlow_d.signal_for_b1    0           0            0       0            
+b.low_a.mass_cen_b0       844.15      712589       0.0001  185.702      
+b.low_a.mass_cen_b1       0           0            0       0            
+b.low_a.mass_for_b0       0           0            0       0            
+b.low_a.mass_for_b1       0           0            0       0            
+b.low_b.jet2_cen_b0       844.15      712589       0.0001  185.702      
+b.low_b.jet2_cen_b1       0           0            0       0            
+b.low_b.jet2_for_b0       0           0            0       0            
+b.low_b.jet2_for_b1       0           0            0       0            
+b.low_b.jet3_cen_b0       0           0            0       0            
+b.low_b.jet3_cen_b1       0           0            0       0            
+b.low_b.jet3_for_b0       0           0            0       0            
+b.low_b.jet3_for_b1       0           0            0       0            
+b.low_c.MET100_cen_b0     0           0            0       0            
+b.low_c.MET100_cen_b1     0           0            0       0            
+b.low_c.MET100_for_b0     0           0            0       0            
+b.low_c.MET100_for_b1     0           0            0       0            
+b.low_c.MET150_cen_b0     0           0            0       0            
+b.low_c.MET150_cen_b1     0           0            0       0            
+b.low_c.MET150_for_b0     0           0            0       0            
+b.low_c.MET150_for_b1     0           0            0       0            
+b.low_d.signal_cen_b0     0           0            0       0            
+b.low_d.signal_cen_b1     0           0            0       0            
+b.low_d.signal_for_b0     0           0            0       0            
+b.low_d.signal_for_b1     0           0            0       0            
+c.medium_a.mass_cen_b0    28701.1     2.4228e+07   0.0034  6313.87      
+c.medium_a.mass_cen_b1    1688.3      1.42518e+06  0.0002  371.404      
+c.medium_a.mass_for_b0    6753.2      5.70071e+06  0.0008  1485.62      
+c.medium_a.mass_for_b1    1688.3      1.42518e+06  0.0002  371.404      
+c.medium_b.jet2_cen_b0    28701.1     2.4228e+07   0.0034  6313.87      
+c.medium_b.jet2_cen_b1    1688.3      1.42518e+06  0.0002  371.404      
+c.medium_b.jet2_for_b0    6753.2      5.70071e+06  0.0008  1485.62      
+c.medium_b.jet2_for_b1    1688.3      1.42518e+06  0.0002  371.404      
+c.medium_b.jet3_cen_b0    4220.75     3.56295e+06  0.0005  928.51       
+c.medium_b.jet3_cen_b1    0           0            0       0            
+c.medium_b.jet3_for_b0    0           0            0       0            
+c.medium_b.jet3_for_b1    0           0            0       0            
+c.medium_c.MET100_cen_b0  0           0            0       0            
+c.medium_c.MET100_cen_b1  0           0            0       0            
+c.medium_c.MET100_for_b0  0           0            0       0            
+c.medium_c.MET100_for_b1  0           0            0       0            
+c.medium_c.MET150_cen_b0  0           0            0       0            
+c.medium_c.MET150_cen_b1  0           0            0       0            
+c.medium_c.MET150_for_b0  0           0            0       0            
+c.medium_c.MET150_for_b1  0           0            0       0            
+c.medium_d.signal_cen_b0  0           0            0       0            
+c.medium_d.signal_cen_b1  0           0            0       0            
+c.medium_d.signal_for_b0  0           0            0       0            
+c.medium_d.signal_for_b1  0           0            0       0            
+d.high_a.mass_cen_b0      2532.45     2.13777e+06  0.0003  557.106      
+d.high_a.mass_cen_b1      0           0            0       0            
+d.high_a.mass_for_b0      0           0            0       0            
+d.high_a.mass_for_b1      0           0            0       0            
+d.high_b.jet2_cen_b0      2532.45     2.13777e+06  0.0003  557.106      
+d.high_b.jet2_cen_b1      0           0            0       0            
+d.high_b.jet2_for_b0      0           0            0       0            
+d.high_b.jet2_for_b1      0           0            0       0            
+d.high_b.jet3_cen_b0      0           0            0       0            
+d.high_b.jet3_cen_b1      0           0            0       0            
+d.high_b.jet3_for_b0      0           0            0       0            
+d.high_b.jet3_for_b1      0           0            0       0            
+d.high_c.MET100_cen_b0    0           0            0       0            
+d.high_c.MET100_cen_b1    0           0            0       0            
+d.high_c.MET100_for_b0    0           0            0       0            
+d.high_c.MET100_for_b1    0           0            0       0            
+d.high_c.MET150_cen_b0    0           0            0       0            
+d.high_c.MET150_cen_b1    0           0            0       0            
+d.high_c.MET150_for_b0    0           0            0       0            
+d.high_c.MET150_for_b1    0           0            0       0            
+d.high_d.signal_cen_b0    0           0            0       0            
+d.high_d.signal_cen_b1    0           0            0       0            
+d.high_d.signal_for_b0    0           0            0       0            
+d.high_d.signal_for_b1    0           0            0       0            
+e.vhigh_a.mass_cen_b0     1688.3      1.42518e+06  0.0002  371.404      
+e.vhigh_a.mass_cen_b1     0           0            0       0            
+e.vhigh_a.mass_for_b0     844.15      712589       0.0001  185.702      
+e.vhigh_a.mass_for_b1     0           0            0       0            
+e.vhigh_b.jet2_cen_b0     1688.3      1.42518e+06  0.0002  371.404      
+e.vhigh_b.jet2_cen_b1     0           0            0       0            
+e.vhigh_b.jet2_for_b0     844.15      712589       0.0001  185.702      
+e.vhigh_b.jet2_for_b1     0           0            0       0            
+e.vhigh_b.jet3_cen_b0     0           0            0       0            
+e.vhigh_b.jet3_cen_b1     0           0            0       0            
+e.vhigh_b.jet3_for_b0     0           0            0       0            
+e.vhigh_b.jet3_for_b1     0           0            0       0            
+e.vhigh_c.MET100_cen_b0   0           0            0       0            
+e.vhigh_c.MET100_cen_b1   0           0            0       0            
+e.vhigh_c.MET100_for_b0   0           0            0       0            
+e.vhigh_c.MET100_for_b1   0           0            0       0            
+e.vhigh_c.MET150_cen_b0   0           0            0       0            
+e.vhigh_c.MET150_cen_b1   0           0            0       0            
+e.vhigh_c.MET150_for_b0   0           0            0       0            
+e.vhigh_c.MET150_for_b1   0           0            0       0            
+e.vhigh_d.signal_cen_b0   0           0            0       0            
+e.vhigh_d.signal_cen_b1   0           0            0       0            
+e.vhigh_d.signal_for_b0   0           0            0       0            
+e.vhigh_d.signal_for_b1   0           0            0       0            

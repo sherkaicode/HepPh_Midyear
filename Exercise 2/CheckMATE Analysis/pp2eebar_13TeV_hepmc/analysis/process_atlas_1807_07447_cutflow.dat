@@ -1,0 +1,19 @@
+# model-independent search for whatever
+# numbers from histograms, errors might happen
+# interpret results with caution
+# additional signal regions in cutflow
+
+Inputfile:
+XSect:           844100 fb
+ Error:          1900 fb
+MCEvents:        10000
+ SumOfWeights:   8.4415e+06
+ SumOfWeights2:  7.12589e+09
+ NormEvents:     2.70956e+06
+
+Cut     Sum_W   Sum_W2       Acc     N_Norm   
+1e1b    8441.5  7.12589e+06  0.001   2709.56  
+1e1b1j  5064.9  4.27554e+06  0.0006  1625.74  
+1e1j    168830  1.42518e+08  0.02    54191.2  
+1e2j    8441.5  7.12589e+06  0.001   2709.56  
+1e3j    1688.3  1.42518e+06  0.0002  541.912  

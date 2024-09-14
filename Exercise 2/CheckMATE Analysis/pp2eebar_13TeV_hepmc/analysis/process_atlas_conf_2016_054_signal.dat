@@ -1,0 +1,21 @@
+# search for squarks and gluinos in events with an isolated lepton, jets and missing transverse momentum at sqrt{s}=13 TeV with the ATLAS detector
+
+Inputfile:
+XSect:           844100 fb
+ Error:          1900 fb
+MCEvents:        10000
+ SumOfWeights:   8.4415e+06
+ SumOfWeights2:  7.12589e+09
+ NormEvents:     1.24927e+07
+
+SR                 Sum_W  Sum_W2  Acc  N_Norm  
+GG2J               0      0       0    0       
+GG4J_high_x        0      0       0    0       
+GG4J_low_x         0      0       0    0       
+GG4J_low_x_b_veto  0      0       0    0       
+GG6J_bulk          0      0       0    0       
+GG6J_high_mass     0      0       0    0       
+SS4J               0      0       0    0       
+SS4J_lox_x         0      0       0    0       
+SS5J               0      0       0    0       
+SS5J_high_x        0      0       0    0       

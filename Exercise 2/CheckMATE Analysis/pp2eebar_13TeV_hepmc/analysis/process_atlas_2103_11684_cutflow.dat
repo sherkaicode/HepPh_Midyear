@@ -1,0 +1,14 @@
+# Search for SUSY in events with four or more leptons
+
+Inputfile:
+XSect:           844100 fb
+ Error:          1900 fb
+MCEvents:        10000
+ SumOfWeights:   8.4415e+06
+ SumOfWeights2:  7.12589e+09
+ NormEvents:     1.1733e+08
+
+Cut                Sum_W       Sum_W2       Acc     N_Norm       
+01_object_removal  8.4415e+06  7.12589e+09  1       1.1733e+08   
+02_2_leptons       5.7436e+06  4.84846e+09  0.6804  7.98313e+07  
+03_trigger         5.7436e+06  4.84846e+09  0.6804  7.98313e+07  

@@ -1,0 +1,64 @@
+# search for electroweak production of charginos and sleptons decaying into
+# final states with 2 leptons and MET, 13 TeV, 139/fb
+
+Inputfile:
+XSect:           844100 fb
+ Error:          1900 fb
+MCEvents:        10000
+ SumOfWeights:   8.4415e+06
+ SumOfWeights2:  7.12589e+09
+ NormEvents:     1.1733e+08
+
+SR               Sum_W  Sum_W2  Acc  N_Norm  
+SR-DF-0J-EXC100  0      0       0    0       
+SR-DF-0J-EXC120  0      0       0    0       
+SR-DF-0J-INC100  0      0       0    0       
+SR-DF-0J-INC160  0      0       0    0       
+SR-DF-0Ja        0      0       0    0       
+SR-DF-0Jb        0      0       0    0       
+SR-DF-0Jc        0      0       0    0       
+SR-DF-0Jd        0      0       0    0       
+SR-DF-0Je        0      0       0    0       
+SR-DF-0Jf        0      0       0    0       
+SR-DF-0Jg        0      0       0    0       
+SR-DF-0Jh        0      0       0    0       
+SR-DF-0Ji        0      0       0    0       
+SR-DF-1J-EXC100  0      0       0    0       
+SR-DF-1J-EXC120  0      0       0    0       
+SR-DF-1J-INC100  0      0       0    0       
+SR-DF-1J-INC160  0      0       0    0       
+SR-DF-1Ja        0      0       0    0       
+SR-DF-1Jb        0      0       0    0       
+SR-DF-1Jc        0      0       0    0       
+SR-DF-1Jd        0      0       0    0       
+SR-DF-1Je        0      0       0    0       
+SR-DF-1Jf        0      0       0    0       
+SR-DF-1Jg        0      0       0    0       
+SR-DF-1Jh        0      0       0    0       
+SR-DF-1Ji        0      0       0    0       
+SR-SF-0J-EXC100  0      0       0    0       
+SR-SF-0J-EXC120  0      0       0    0       
+SR-SF-0J-INC100  0      0       0    0       
+SR-SF-0J-INC160  0      0       0    0       
+SR-SF-0Ja        0      0       0    0       
+SR-SF-0Jb        0      0       0    0       
+SR-SF-0Jc        0      0       0    0       
+SR-SF-0Jd        0      0       0    0       
+SR-SF-0Je        0      0       0    0       
+SR-SF-0Jf        0      0       0    0       
+SR-SF-0Jg        0      0       0    0       
+SR-SF-0Jh        0      0       0    0       
+SR-SF-0Ji        0      0       0    0       
+SR-SF-1J-EXC100  0      0       0    0       
+SR-SF-1J-EXC120  0      0       0    0       
+SR-SF-1J-INC100  0      0       0    0       
+SR-SF-1J-INC160  0      0       0    0       
+SR-SF-1Ja        0      0       0    0       
+SR-SF-1Jb        0      0       0    0       
+SR-SF-1Jc        0      0       0    0       
+SR-SF-1Jd        0      0       0    0       
+SR-SF-1Je        0      0       0    0       
+SR-SF-1Jf        0      0       0    0       
+SR-SF-1Jg        0      0       0    0       
+SR-SF-1Jh        0      0       0    0       
+SR-SF-1Ji        0      0       0    0       

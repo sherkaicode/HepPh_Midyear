@@ -1,0 +1,23 @@
+# ATLAS
+# ATLAS-CONF-2016-096
+# 2 or 3 leptons and ptmiss
+# sqrt(s) = 13 TeV
+# int(L) = 13.3 fb^-1
+
+Inputfile:
+XSect:           844100 fb
+ Error:          1900 fb
+MCEvents:        10000
+ SumOfWeights:   8.4415e+06
+ SumOfWeights2:  7.12589e+09
+ NormEvents:     1.12265e+07
+
+SR     Sum_W  Sum_W2  Acc  N_Norm  
+2LADF  0      0       0    0       
+2LASF  0      0       0    0       
+2LBDF  0      0       0    0       
+2LBSF  0      0       0    0       
+2LCDF  0      0       0    0       
+2LCSF  0      0       0    0       
+3LH    0      0       0    0       
+3LI    0      0       0    0       

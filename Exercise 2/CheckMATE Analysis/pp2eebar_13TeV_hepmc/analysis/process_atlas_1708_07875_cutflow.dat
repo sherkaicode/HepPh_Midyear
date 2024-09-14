@@ -1,0 +1,15 @@
+# search for susy
+# at least two taus and missing et
+# sqrt(s)=13TeV
+# 36.1fb^-1
+
+Inputfile:
+XSect:           844100 fb
+ Error:          1900 fb
+MCEvents:        10000
+ SumOfWeights:   8.4415e+06
+ SumOfWeights2:  7.12589e+09
+ NormEvents:     3.0472e+07
+
+Cut     Sum_W       Sum_W2       Acc  N_Norm      
+00_all  8.4415e+06  7.12589e+09  1    3.0472e+07  

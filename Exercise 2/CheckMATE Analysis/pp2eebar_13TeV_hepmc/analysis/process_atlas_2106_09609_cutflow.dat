@@ -1,0 +1,20 @@
+# ATLAS search for RPV susy in a final state containing leptons and many jets
+
+Inputfile:
+XSect:           844100 fb
+ Error:          1900 fb
+MCEvents:        10000
+ SumOfWeights:   8.4415e+06
+ SumOfWeights2:  7.12589e+09
+ NormEvents:     1.1733e+08
+
+Cut                          Sum_W        Sum_W2       Acc     N_Norm       
+01_nLeptons>0                6.76333e+06  5.70927e+09  0.8012  9.40047e+07  
+02_leadLep_PT>27             5.56717e+06  4.69953e+09  0.6595  7.73791e+07  
+03_1l event                  5.56717e+06  4.69953e+09  0.6595  7.73791e+07  
+05_no 1l or 2lSC candidates  5.56717e+06  4.69953e+09  0.6595  7.73791e+07  
+06_EW_1l_4j                  13506.4      1.14014e+07  0.0016  187728       
+06_EW_1l_5j                  1688.3       1.42518e+06  0.0002  23466        
+06_EW_1l_6j                  844.15       712589       0.0001  11733        
+07_1l_pT>20_06j              844.15       712589       0.0001  11733        
+07_1l_pT>20_0b_06j           844.15       712589       0.0001  11733        

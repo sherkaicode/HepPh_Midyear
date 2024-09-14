@@ -1,0 +1,16 @@
+# Search for pair-production of gluinos decaying via stop and
+# sbottom in events with b-jets and large missing transverse
+# momentum in sqrt(s) = 13 TeV p p collisions with the ATLAS detector
+
+Inputfile:
+XSect:           844100 fb
+ Error:          1900 fb
+MCEvents:        10000
+ SumOfWeights:   8.4415e+06
+ SumOfWeights2:  7.12589e+09
+ NormEvents:     2.78553e+06
+
+Cut                      Sum_W       Sum_W2       Acc     N_Norm       
+0.0_Preselection_nocuts  8.4415e+06  7.12589e+09  1       2.78553e+06  
+0.1_Preselection_nJets   112272      9.47744e+07  0.0133  37047.5      
+0.2_Preselection_nBJets  1688.3      1.42518e+06  0.0002  557.106      

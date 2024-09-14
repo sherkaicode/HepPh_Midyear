@@ -1,0 +1,20 @@
+# search for sleptons and electroweakinos with soft leptons
+
+Inputfile:
+XSect:           844100 fb
+ Error:          1900 fb
+MCEvents:        10000
+ SumOfWeights:   8.4415e+06
+ SumOfWeights2:  7.12589e+09
+ NormEvents:     1.1733e+08
+
+Cut                 Sum_W       Sum_W2       Acc     N_Norm      
+00_0all             8.4415e+06  7.12589e+09  1       1.1733e+08  
+01_trigger          81882.6     6.91212e+07  0.0097  1.1381e+06  
+2L_02_2L            53181.5     4.48931e+07  0.0063  739178      
+2L_03_jpsi_veto     53181.5     4.48931e+07  0.0063  739178      
+2L_04_dphi_min>0.4  16883       1.42518e+07  0.002   234660      
+2L_05_dphi_jet1>2   4220.75     3.56295e+06  0.0005  58664.9     
+2L_06_mll           4220.75     3.56295e+06  0.0005  58664.9     
+2L_07_deltaR        4220.75     3.56295e+06  0.0005  58664.9     
+2L_08_lepton>5      4220.75     3.56295e+06  0.0005  58664.9     

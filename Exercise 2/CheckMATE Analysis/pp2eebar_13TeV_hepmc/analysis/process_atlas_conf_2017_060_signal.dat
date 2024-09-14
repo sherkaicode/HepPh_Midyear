@@ -1,0 +1,31 @@
+# monojet search
+
+Inputfile:
+XSect:           844100 fb
+ Error:          1900 fb
+MCEvents:        10000
+ SumOfWeights:   8.4415e+06
+ SumOfWeights2:  7.12589e+09
+ NormEvents:     3.0472e+07
+
+SR    Sum_W  Sum_W2  Acc  N_Norm  
+EM1   0      0       0    0       
+EM10  0      0       0    0       
+EM2   0      0       0    0       
+EM3   0      0       0    0       
+EM4   0      0       0    0       
+EM5   0      0       0    0       
+EM6   0      0       0    0       
+EM7   0      0       0    0       
+EM8   0      0       0    0       
+EM9   0      0       0    0       
+IM1   0      0       0    0       
+IM10  0      0       0    0       
+IM2   0      0       0    0       
+IM3   0      0       0    0       
+IM4   0      0       0    0       
+IM5   0      0       0    0       
+IM6   0      0       0    0       
+IM7   0      0       0    0       
+IM8   0      0       0    0       
+IM9   0      0       0    0       

@@ -1,0 +1,22 @@
+# ttV cross section measurement at 13 TeV
+# SS mu, 3 or 4 lepton channels
+# ttW and ttZ at 13 TeV 3.2/fb
+
+Inputfile:
+XSect:           844100 fb
+ Error:          1900 fb
+MCEvents:        10000
+ SumOfWeights:   8.4415e+06
+ SumOfWeights2:  7.12589e+09
+ NormEvents:     2.70112e+06
+
+SR       Sum_W  Sum_W2  Acc  N_Norm  
+2muSS    0      0       0    0       
+3lZ1b4j  0      0       0    0       
+3lZ2b3j  0      0       0    0       
+3lZ2b4j  0      0       0    0       
+3lnoZ2b  0      0       0    0       
+4lDF1b   0      0       0    0       
+4lDF2b   0      0       0    0       
+4lSF1b   0      0       0    0       
+4lSF2b   0      0       0    0       
